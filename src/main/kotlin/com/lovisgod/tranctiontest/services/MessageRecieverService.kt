@@ -1,13 +1,12 @@
 package com.lovisgod.tranctiontest.services
 
+import com.lovisgod.tranctiontest.Constants
 import com.lovisgod.tranctiontest.listeners.RequestListener
 import jakarta.annotation.PostConstruct
 import org.jpos.iso.ISOServer
 import org.jpos.iso.ServerChannel
 import org.jpos.iso.channel.ASCIIChannel
-import org.jpos.iso.channel.XMLChannel
-import org.jpos.iso.packager.ISO87APackager
-import org.jpos.iso.packager.XMLPackager
+import org.jpos.iso.packager.GenericPackager
 import org.jpos.util.LogSource
 import org.jpos.util.Logger
 import org.jpos.util.SimpleLogListener
@@ -16,18 +15,21 @@ import org.springframework.stereotype.Service
 
 
 @Service
-class MessageRecieverService {
+class MessageReceiverService {
 
     @Autowired lateinit var requestListener: RequestListener
 
     @PostConstruct
     fun initializeIsoServer() {
         val logger = Logger()
-        val packager = ISO87APackager()
+        val hostname = Constants.HOST_NAME
+        val port = Constants.HOST_PORT
+        var data = javaClass.getResourceAsStream("/fields.xml")
+        val packager = GenericPackager(data)
         logger.addListener(SimpleLogListener(System.out))
-        val channel: ServerChannel = XMLChannel(XMLPackager())
+        val channel: ServerChannel = ASCIIChannel(hostname, port, packager)
         (channel as LogSource).setLogger(logger, "channel")
-        val server = ISOServer(8083, channel, null)
+        val server = ISOServer(port, channel, null)
         server.setLogger (logger, "server")
         server.addISORequestListener(requestListener)
         Thread (server).start ()
