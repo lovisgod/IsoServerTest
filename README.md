@@ -33,6 +33,52 @@ MTI (Message Type Indicator): 0800
 Process Code: 9D0000
 Other relevant fields as needed for testing.
 
+### Example request will be something like this
+
+```kotlin
+  fun echoMessageSample(
+            processCode: String,
+            terminalId: String): Any {
+        return try {
+            val now = Date()
+            val stan = getNextStan()
+            // Load package from resources directory.
+            val isoMsg = ISOMsg()
+            isoMsg.packager = packager
+            isoMsg.mti = "0800"
+            isoMsg[3] = processCode
+            isoMsg[7] = timeAndDateFormatter.format(now)
+            isoMsg[11] = stan
+            isoMsg[12] = timeFormatter.format(now)
+            isoMsg[13] = monthFormatter.format(now)
+            isoMsg[41] = terminalId
+            printISOMessage(isoMsg)
+            val dataToSend = isoMsg.pack()
+
+            val c  = ASCIIChannel("localhost", 8083, packager)
+
+            c.connect()
+
+            c.send(isoMsg)
+
+            val response = c.receive()
+
+            printISOMessage(response)
+            println(response.getValue(39))
+            println(response.getString(53))
+
+            if (response.getValue(39) != "00") {
+                return "call home not successful"
+            } else {
+                return "got back"
+            }
+
+        } catch (e: ISOException) {
+            throw Exception(e)
+        }
+    }
+```
+
 ### 3. Monitor Server Logs:
 
 Monitor the server logs to observe the processing of the incoming message.
@@ -50,6 +96,23 @@ Customize field definitions, message templates, and other configurations as need
 ### 3. Restart the Server:
 
 Restart the server to apply the changes to the packager.
+
+# USING Q2 AND QServer
+
+`Q2` is a lightweight framework built on top of jPOS, providing additional features and capabilities.
+
+`QServer` is part of jPOS's Q2 (Quick-Start 2) framework.
+
+### Functionality:
+
+QServer extends the functionality of ISOServer by introducing asynchronous processing through the use of queues (Q stands for Queue).
+Messages are processed asynchronously in a multithreaded environment, which can be beneficial for handling a high volume of concurrent connections.
+
+### Usage:
+
+You typically use QServer when you need advanced features like asynchronous processing, thread pooling, and the ability to configure various components through Q2's configuration files.
+
+To test this server application using `Q2` and `QServer`, navigate to the [use-q-server](https://github.com/lovisgod/IsoServerTest/tree/use-q-server) branch and Rebuild/Restart the application.
 
 # Important Note
 
