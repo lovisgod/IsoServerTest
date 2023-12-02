@@ -112,7 +112,7 @@ Messages are processed asynchronously in a multithreaded environment, which can 
 
 You typically use QServer when you need advanced features like asynchronous processing, thread pooling, and the ability to configure various components through Q2's configuration files.
 
-To test this server application using `Q2` and `QServer`, navigate to the `[use-q-server](https://github.com/lovisgod/IsoServerTest/tree/use-q-server)` branch and Rebuild/Restart the application.
+To test this server application using `Q2` and `QServer`, navigate to the [use-q-server](https://github.com/lovisgod/IsoServerTest/tree/use-q-server) branch and Rebuild/Restart the application.
 
 # Important Note
 
