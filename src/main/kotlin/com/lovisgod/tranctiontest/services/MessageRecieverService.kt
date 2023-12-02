@@ -36,12 +36,12 @@ class MessageReceiverService {
 //        Thread (server).start ()
 
         // Decided to Q server for the purpose of being able to accept multiple connections
-//        try {
-//            val q2 = Q2()
-//            Thread(q2).start()
-//        } catch (e: Exception) {
-//            println(e)
-//        }
+        try {
+            val q2 = Q2()
+            Thread(q2).start()
+        } catch (e: Exception) {
+            println(e)
+        }
     }
 
 }
