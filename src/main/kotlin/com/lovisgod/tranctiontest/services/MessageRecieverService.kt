@@ -6,6 +6,7 @@ import jakarta.annotation.PostConstruct
 import org.jpos.iso.ISOServer
 import org.jpos.iso.ServerChannel
 import org.jpos.iso.channel.ASCIIChannel
+import org.jpos.iso.channel.PostChannel
 import org.jpos.iso.packager.GenericPackager
 import org.jpos.util.LogSource
 import org.jpos.util.Logger
@@ -27,7 +28,7 @@ class MessageReceiverService {
         var data = javaClass.getResourceAsStream("/fields.xml")
         val packager = GenericPackager(data)
         logger.addListener(SimpleLogListener(System.out))
-        val channel: ServerChannel = ASCIIChannel(hostname, port, packager)
+        val channel: ServerChannel = PostChannel(hostname, port, packager)
         (channel as LogSource).setLogger(logger, "channel")
         val server = ISOServer(port, channel, null)
         server.setLogger (logger, "server")
