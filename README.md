@@ -37,46 +37,52 @@ Other relevant fields as needed for testing.
 
 ```kotlin
   fun echoMessageSample(
-            processCode: String,
-            terminalId: String): Any {
-        return try {
-            val now = Date()
-            val stan = getNextStan()
-            // Load package from resources directory.
-            val isoMsg = ISOMsg()
-            isoMsg.packager = packager
-            isoMsg.mti = "0800"
-            isoMsg[3] = processCode
-            isoMsg[7] = timeAndDateFormatter.format(now)
-            isoMsg[11] = stan
-            isoMsg[12] = timeFormatter.format(now)
-            isoMsg[13] = monthFormatter.format(now)
-            isoMsg[41] = terminalId
-            printISOMessage(isoMsg)
-            val dataToSend = isoMsg.pack()
+        processCode: String,
+        terminalId: String): Any {
+   return try {
+      val now = Date()
+      val stan = getNextStan()
+      // Load package from resources directory.
+      val isoMsg = ISOMsg()
+      isoMsg.packager = packager
+      isoMsg.mti = "0800"
+      isoMsg[3] = processCode
+      isoMsg[7] = timeAndDateFormatter.format(now)
+      isoMsg[11] = stan
+      isoMsg[12] = timeFormatter.format(now)
+      isoMsg[13] = monthFormatter.format(now)
+      isoMsg[41] = terminalId
+      printISOMessage(isoMsg)
+      val dataToSend = isoMsg.pack()
+      // set server Ip and port
+      socket.setIpAndPort("localhost", 8083)
 
-            val c  = ASCIIChannel("localhost", 8083, packager)
+      // open to socket endpoint
+      socket.open()
 
-            c.connect()
+      // send request and process response
+      val response = socket.sendReceive(dataToSend)
 
-            c.send(isoMsg)
+      println("response from server : ${response?.asList()}")
 
-            val response = c.receive()
+      isoMsg.unpack(response)
+      printISOMessage(isoMsg)
+      println(isoMsg.getValue(39))
+      println(isoMsg.getString(53))
+      // close connection
+      socket.close()
 
-            printISOMessage(response)
-            println(response.getValue(39))
-            println(response.getString(53))
+      if (isoMsg.getValue(39) != "00") {
+         return "call home not successful"
+      } else {
 
-            if (response.getValue(39) != "00") {
-                return "call home not successful"
-            } else {
-                return "got back"
-            }
+         return "Call Home Successful"
+      }
 
-        } catch (e: ISOException) {
-            throw Exception(e)
-        }
-    }
+   } catch (e: ISOException) {
+      throw Exception(e)
+   }
+}
 ```
 
 ### 3. Monitor Server Logs:

@@ -3,7 +3,7 @@
     <attr name="minSessions" type="java.lang.Integer">10</attr>
     <attr name="maxSessions" type="java.lang.Integer">1000</attr>
     <channel name="xml.channel"
-             class="org.jpos.iso.channel.ASCIIChannel"
+             class="org.jpos.iso.channel.PostChannel"
              packager="org.jpos.iso.packager.GenericPackager">
         <property name="packager-config" value="./src/main/resources/fields.xml" />
     </channel>
