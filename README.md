@@ -1,6 +1,6 @@
 # JPOS Test Server for Call-home Messages
 
-This repository contains a test JPOS server designed to accept incoming Call-home messages with the process code 9D0000. The server is configured to handle ISO8583 messages using a generic packager defined in XML format.
+This repository contains a test JPOS server designed to accept incoming Call-home messages with the process code 9D0000.
 
 ## Usage
 
