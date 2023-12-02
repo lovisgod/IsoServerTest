@@ -1,0 +1,14 @@
+<qserver name="first-server" logger="Q2">
+    <attr name="port" type="java.lang.Integer">8083</attr>
+    <attr name="minSessions" type="java.lang.Integer">10</attr>
+    <attr name="maxSessions" type="java.lang.Integer">1000</attr>
+    <channel name="xml.channel"
+             class="org.jpos.iso.channel.ASCIIChannel"
+             packager="org.jpos.iso.packager.GenericPackager">
+        <property name="packager-config" value="./src/main/resources/fields.xml" />
+    </channel>
+    <request-listener class="com.lovisgod.tranctiontest.listeners.RequestListener" logger="Q2">
+<!--        <property name="my-property" value="ABC" />-->
+<!--        <property name="my-other-property" value="XYZ" />-->
+    </request-listener>
+</qserver>
