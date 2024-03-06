@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<mux class="org.jpos.q2.iso.QMUX" logger="Q2" name="nibss_mux">
+    <key>41 37 11</key>
+    <in>com.lovisgod.tranctiontest-channel_receive</in>
+    <out>com.lovisgod.tranctiontest-channel_send</out>
+    <ready>com.lovisgod.tranctiontest-channel.ready</ready>
+    <unhandeled>com.lovisgod.tranctiontest-channel.unhandled</unhandeled>
+</mux>

@@ -1,0 +1,35 @@
+<!--<logger name="Q2" class="org.jpos.q2.qbean.LoggerAdaptor">-->
+
+<!--    <log-listener class="org.jpos.util.SimpleLogListener"/>-->
+<!--    &lt;!&ndash;  <log-listener class="org.jpos.util.ProtectedLogListener">&ndash;&gt;-->
+<!--    &lt;!&ndash;    <property name="protect" value="2 14 35 55" />&ndash;&gt;-->
+<!--    &lt;!&ndash;  </log-listener>&ndash;&gt;-->
+<!--    &lt;!&ndash;  <log-listener class="org.jpos.util.DailyLogListener">&ndash;&gt;-->
+<!--    &lt;!&ndash;    <property name="prefix" value="logs/jpos" />&ndash;&gt;-->
+<!--    &lt;!&ndash;    <property name="window" value="86400" />&ndash;&gt;-->
+<!--    &lt;!&ndash;    <property name="date-format" value="-yyyy-MM-dd-HH" />&ndash;&gt;-->
+<!--    &lt;!&ndash;    <property name="suffix" value=".log"/>&ndash;&gt;-->
+<!--    &lt;!&ndash;    <property name="maxsize" value="15000000"/>&ndash;&gt;-->
+<!--    &lt;!&ndash;  </log-listener>&ndash;&gt;-->
+
+
+<!--</logger>-->
+
+<logger name="Q2" class="org.jpos.q2.qbean.LoggerAdaptor">
+<log-listener class="org.jpos.util.SimpleLogListener" />
+<log-listener class="org.jpos.util.BufferedLogListener">
+    <property name="max-size" value="100" />
+    <property name="name" value="logger.Q2.buffered" />
+</log-listener>
+
+<log-listener class="org.jpos.util.DailyLogListener">
+    <property name="window" value="86400" /> <!-- optional, default one day -->
+    <!--needed-->
+    <property name="prefix" value="log/q2" />
+    <property name="suffix" value=".log"/> <!-- optional -->
+    <!--optional the default is "-yyyy-MM-dd" -->
+    <property name="date-format" value="-yyyy-MM-dd-HH"/>
+    <!--optional the default is gzip-->
+    <property name="compression-format" value="gzip"/>
+</log-listener>
+</logger>
