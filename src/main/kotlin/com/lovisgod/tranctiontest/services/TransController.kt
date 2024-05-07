@@ -8,6 +8,7 @@ import com.lovisgod.tranctiontest.utils.ApplicationUtils.printISOMessage
 import com.lovisgod.tranctiontest.utils.DateUtils.monthFormatter
 import com.lovisgod.tranctiontest.utils.DateUtils.timeAndDateFormatter
 import com.lovisgod.tranctiontest.utils.DateUtils.timeFormatter
+import com.lovisgod.tranctiontest.utils.MyPostPackager
 import com.lovisgod.tranctiontest.utils.NetworkService
 import com.lovisgod.tranctiontest.utils.UnpackISOMessage
 import org.jpos.iso.*
@@ -30,7 +31,7 @@ class TransController(var qmux: MUX) {
     fun doSignOnToIsw():Any {
         println("got here for signon")
 
-        val networkService = NetworkService("localhost", 9009, true )
+        val networkService = NetworkService("localhost", 9009, false )
         val request = ISOMsg()
         return try {
             val now = Date()
@@ -38,6 +39,7 @@ class TransController(var qmux: MUX) {
             // Load package from resources directory.
 
 //            isoMsg.packager = packager
+//            request.packager = MyPostPackager()
             request.mti = "0800"
 //            isoMsg[3] = "9A0000"
             request[7] = timeAndDateFormatter.format(now)
@@ -48,17 +50,17 @@ class TransController(var qmux: MUX) {
 
             printISOMessage(request)
 
-//            networkService.connect()
-//            networkService.send(request)
-//            val responseX = networkService.receive()
-//            responseX.dump(System.out, "")
-            log.info("mux.isConnected {}", qmux.isConnected)
+            networkService.connect()
+            networkService.send(request)
+            val responseX = networkService.receive()
+            responseX.dump(System.out, "")
+//            log.info("mux.isConnected {}", qmux.isConnected)
 //
-            val response = qmux.request(request, 300000)
-            log.info("mux.isConnected {}", qmux.isConnected)
-            response.dump(System.out, "")
+//            val response = qmux.request(request, 300000)
+//            log.info("mux.isConnected {}", qmux.isConnected)
+//            response.dump(System.out, "")
 //            log.info("RespMsg {}", respMsg)
-            return UnpackISOMessage().parseISOMessage(response)
+            return UnpackISOMessage().parseISOMessage(responseX)
         } catch (e: ISOException) {
             println(e.printStackTrace())
             return ResponseObject(

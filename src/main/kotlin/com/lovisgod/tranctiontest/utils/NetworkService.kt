@@ -33,9 +33,9 @@ class NetworkService(private var ip: String, private var port: Int, isSsl: Boole
         try {
             channel.packager = GenericPackager(javaClass.classLoader.getResourceAsStream("postpack.xml"))
 
-            if (isSsl) {
-                channel.socketFactory = SocketFactoryUtils()
-            }
+//            if (isSsl) {
+//                channel.socketFactory = SocketFactoryUtils()
+//            }
         }
         catch (e: NoSuchAlgorithmException) {
             e.printStackTrace()
@@ -47,7 +47,7 @@ class NetworkService(private var ip: String, private var port: Int, isSsl: Boole
             e.printStackTrace()
         }
 
-        (channel as LogSource).setLogger(logger, "stackafrica-logger")
+        (channel as LogSource).setLogger(logger, "lovisgod-logger")
     }
 
     companion object {

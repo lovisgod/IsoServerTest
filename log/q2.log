@@ -27292,3 +27292,3188 @@ q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
   </trace>
 </log>
 </logger>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2024-03-06T16:07:27.571628">
+  <info>
+    Q2 started, deployDir=/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy, environment=default
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:07:28.032700" lifespan="457ms">
+  <version>
+    jPOS 2.1.8 master/6c7e86f (2023-02-21 19:13:26 UYT) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:07:28.048860" lifespan="10ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:07:28.066930" lifespan="17ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:07:28.081093" lifespan="12ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:07:28.087872" lifespan="6ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:07:28.152162">
+  <info>
+    start Thread[Thread-6,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:07:28.152427">
+  <info>
+    start Thread[Thread-9,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:07:28.152609">
+  <info>
+    start Thread[Thread-8,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:07:28.152526">
+  <info>
+    start Thread[Thread-7,5,main]
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.server" at="2024-03-06T16:07:28.192461">
+  <iso-server>
+    listening on port 9009
+  </iso-server>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-06T16:07:28.276896" lifespan="126ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Connection established to 172.26.42.206:15155
+  </connect>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:14:23.239697">
+  <info>
+    shutting down (hook)
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:14:23.517332">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </trace>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.pool" at="2024-03-06T16:14:23.530834">
+  <queue-closed/>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:14:23.533529">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:14:23.534265">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </trace>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:14:23.537262">
+  <info>
+    stop Thread[txnmgr-1:idle,5,main], active sessions=2
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:14:23.539544" lifespan="1ms">
+  <info>
+    stop Thread[txnmgr-2:idle,5,main], active sessions=0
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:14:23.539724" lifespan="2ms">
+  <info>
+    stop Thread[txnmgr-0:idle,5,main], active sessions=1
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:14:23.540225" lifespan="2ms">
+  <info>
+    stop Thread[txnmgr-3:idle,5,main], active sessions=3
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:14:23.544780">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:14:23.545022">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:14:23.545378">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:14:23.548250">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </trace>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-06T16:14:23.554748" lifespan="415275ms">
+  <receive/>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:14:23.554629" lifespan="1ms">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-06T16:14:23.552323" lifespan="407330ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0800"/>
+      <field id="7" value="0306160736"/>
+      <field id="11" value="000038"/>
+      <field id="12" value="160736"/>
+      <field id="13" value="0306"/>
+      <field id="70" value="001"/>
+    </isomsg>
+    <exception name="Connection or outbound has closed">
+    java.net.SocketException: Connection or outbound has closed
+	at java.base/sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1301)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at java.base/java.io.DataOutputStream.flush(DataOutputStream.java:128)
+	at org.jpos.iso.BaseChannel.send(BaseChannel.java:604)
+	at org.jpos.q2.iso.ChannelAdaptor$Sender.run(ChannelAdaptor.java:299)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+    </exception>
+  </send>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:14:23.555215">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/00_logger.xml
+  </trace>
+</log>
+</logger>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2024-03-06T16:14:34.125868">
+  <info>
+    Q2 started, deployDir=/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy, environment=default
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:14:34.574138" lifespan="444ms">
+  <version>
+    jPOS 2.1.8 master/6c7e86f (2023-02-21 19:13:26 UYT) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:14:34.589650" lifespan="9ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:14:34.607728" lifespan="17ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:14:34.623422" lifespan="14ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:14:34.629830" lifespan="6ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:14:34.701681">
+  <info>
+    start Thread[Thread-6,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:14:34.701879">
+  <info>
+    start Thread[Thread-9,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:14:34.702621">
+  <info>
+    start Thread[Thread-7,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:14:34.702542">
+  <info>
+    start Thread[Thread-8,5,main]
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.server" at="2024-03-06T16:14:34.741077">
+  <iso-server>
+    listening on port 9009
+  </iso-server>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-06T16:14:34.833346" lifespan="133ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Connection established to 172.26.42.206:15155
+  </connect>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:15:16.472744">
+  <info>
+    shutting down (hook)
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:15:17.346461">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </trace>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.pool" at="2024-03-06T16:15:17.361184">
+  <queue-closed/>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:15:17.361719">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:15:17.362258">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </trace>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:15:17.364909">
+  <info>
+    stop Thread[txnmgr-0:idle,5,main], active sessions=3
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:15:17.367584" lifespan="2ms">
+  <info>
+    stop Thread[txnmgr-3:idle,5,main], active sessions=0
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:15:17.367752" lifespan="2ms">
+  <info>
+    stop Thread[txnmgr-2:idle,5,main], active sessions=1
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:15:17.368016" lifespan="3ms">
+  <info>
+    stop Thread[txnmgr-1:idle,5,main], active sessions=2
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:15:17.369125">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:15:17.370196">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:15:17.372419">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:15:17.374755">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </trace>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-06T16:15:17.379667" lifespan="34065ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0800"/>
+      <field id="7" value="0306161443"/>
+      <field id="11" value="000039"/>
+      <field id="12" value="161443"/>
+      <field id="13" value="0306"/>
+      <field id="70" value="001"/>
+    </isomsg>
+    <exception name="Connection or outbound has closed">
+    java.net.SocketException: Connection or outbound has closed
+	at java.base/sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1301)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at java.base/java.io.DataOutputStream.flush(DataOutputStream.java:128)
+	at org.jpos.iso.BaseChannel.send(BaseChannel.java:604)
+	at org.jpos.q2.iso.ChannelAdaptor$Sender.run(ChannelAdaptor.java:299)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+    </exception>
+  </send>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:15:17.381516">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-06T16:15:17.381725" lifespan="42547ms">
+  <receive/>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:15:17.384945">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/00_logger.xml
+  </trace>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-03-06T16:15:17.382538">
+  <warn>
+    channel-sender-com.lovisgod.tranctiontest-channel_send
+    Connection or outbound has closed
+  </warn>
+</log>
+</logger>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2024-03-06T16:15:44.223609">
+  <info>
+    Q2 started, deployDir=/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy, environment=default
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:15:44.665403" lifespan="438ms">
+  <version>
+    jPOS 2.1.8 master/6c7e86f (2023-02-21 19:13:26 UYT) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:15:44.682410" lifespan="10ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:15:44.706787" lifespan="24ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:15:44.722520" lifespan="14ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:15:44.730700" lifespan="7ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:15:44.791691">
+  <info>
+    start Thread[Thread-6,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:15:44.792111">
+  <info>
+    start Thread[Thread-8,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:15:44.791962">
+  <info>
+    start Thread[Thread-9,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:15:44.792035">
+  <info>
+    start Thread[Thread-7,5,main]
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.server" at="2024-03-06T16:15:44.842789">
+  <iso-server>
+    listening on port 9009
+  </iso-server>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-06T16:15:44.930113" lifespan="139ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Connection established to 172.26.42.206:15155
+  </connect>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:17:45.673154">
+  <info>
+    shutting down (hook)
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:17:47.768420">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </trace>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.pool" at="2024-03-06T16:17:47.779555">
+  <queue-closed/>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:17:47.782399">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:17:47.782750">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </trace>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:17:47.785814">
+  <info>
+    stop Thread[txnmgr-0:idle,5,main], active sessions=2
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:17:47.786025">
+  <info>
+    stop Thread[txnmgr-2:idle,5,main], active sessions=0
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:17:47.786276">
+  <info>
+    stop Thread[txnmgr-3:idle,5,main], active sessions=1
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:17:47.786398">
+  <info>
+    stop Thread[txnmgr-1:idle,5,main], active sessions=3
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:17:47.787181">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:17:47.787810">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:17:47.788517">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:17:47.788745">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:17:47.791380">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-06T16:17:47.791207" lifespan="122860ms">
+  <receive/>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:17:47.792188">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/00_logger.xml
+  </trace>
+</log>
+</logger>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2024-03-06T16:18:15.906205">
+  <info>
+    Q2 started, deployDir=/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy, environment=default
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:18:16.360258" lifespan="450ms">
+  <version>
+    jPOS 2.1.8 master/6c7e86f (2023-02-21 19:13:26 UYT) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:18:16.379086" lifespan="11ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:18:16.393699" lifespan="14ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:18:16.410897" lifespan="16ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:18:16.419782" lifespan="8ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:18:16.481659">
+  <info>
+    start Thread[Thread-6,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:18:16.483143">
+  <info>
+    start Thread[Thread-7,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:18:16.483581">
+  <info>
+    start Thread[Thread-8,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:18:16.483652">
+  <info>
+    start Thread[Thread-9,5,main]
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.server" at="2024-03-06T16:18:16.523695">
+  <iso-server>
+    listening on port 9009
+  </iso-server>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-06T16:18:16.595369" lifespan="115ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Connection established to 172.26.42.206:15155
+  </connect>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:21:28.484290">
+  <info>
+    shutting down (hook)
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:21:28.601025">
+  <info>
+    shutting down
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:21:28.604814">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </trace>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.pool" at="2024-03-06T16:21:28.622458">
+  <queue-closed/>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:21:28.623722" lifespan="1ms">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:21:28.624262">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </trace>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:21:28.627050">
+  <info>
+    stop Thread[txnmgr-0:idle,5,main], active sessions=3
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:21:28.627544">
+  <info>
+    stop Thread[txnmgr-1:idle,5,main], active sessions=1
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:21:28.627444">
+  <info>
+    stop Thread[txnmgr-2:idle,5,main], active sessions=2
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:21:28.627634">
+  <info>
+    stop Thread[txnmgr-3:idle,5,main], active sessions=0
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:21:28.629344">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:21:28.629864">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:21:28.630552">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:21:28.630733">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </trace>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-06T16:21:28.633463" lifespan="192037ms">
+  <receive/>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:21:28.634222">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:21:28.634378">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/00_logger.xml
+  </trace>
+</log>
+</logger>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2024-03-06T16:21:41.724014">
+  <info>
+    Q2 started, deployDir=/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy, environment=default
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:21:42.184937" lifespan="457ms">
+  <version>
+    jPOS 2.1.8 master/6c7e86f (2023-02-21 19:13:26 UYT) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:21:42.201718" lifespan="11ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:21:42.217668" lifespan="15ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:21:42.230904" lifespan="12ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-06T16:21:42.236845" lifespan="5ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:21:42.304587">
+  <info>
+    start Thread[Thread-6,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:21:42.304787">
+  <info>
+    start Thread[Thread-8,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:21:42.304902">
+  <info>
+    start Thread[Thread-9,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-06T16:21:42.304978">
+  <info>
+    start Thread[Thread-7,5,main]
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.server" at="2024-03-06T16:21:42.344828">
+  <iso-server>
+    listening on port 9009
+  </iso-server>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-06T16:21:42.431300" lifespan="127ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Connection established to 172.26.42.206:15155
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-06T19:47:32.339357" lifespan="12349907ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-03-06T19:47:32.345749">
+  <warn>
+    channel-receiver-com.lovisgod.tranctiontest-channel_receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-06T20:04:12.880295" lifespan="8ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Network is unreachable
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-06T20:06:46.749956" lifespan="15ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Network is unreachable
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-06T20:26:30.674304" lifespan="993026ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Operation timed out
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-06T20:54:12.329599" lifespan="931722ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Operation timed out
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-06T21:41:40.717066" lifespan="1239145ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Operation timed out
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-06T21:52:17.108853" lifespan="18ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Network is unreachable
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-06T22:24:07.217383" lifespan="1900034ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Operation timed out
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-06T23:29:30.895811" lifespan="2748493ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Operation timed out
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-06T23:45:39.865961" lifespan="10ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Network is unreachable
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T00:18:17.271871" lifespan="2ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Network is unreachable
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T00:53:21.739375" lifespan="6ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Network is unreachable
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T01:25:10.263530" lifespan="11ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Network is unreachable
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T01:57:25.661795" lifespan="3ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Network is unreachable
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T02:29:06.120558" lifespan="3ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Network is unreachable
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T03:01:42.579825" lifespan="10ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Network is unreachable
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T03:17:43.312219" lifespan="6ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Network is unreachable
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T03:29:03.951342" lifespan="7ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Network is unreachable
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T04:01:38.602010" lifespan="2ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Network is unreachable
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T04:17:44.350137" lifespan="22ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Network is unreachable
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T04:52:26.833417" lifespan="4ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Network is unreachable
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T05:21:41.365855" lifespan="5ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Network is unreachable
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T05:54:50.833508" lifespan="8ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Network is unreachable
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T06:22:38.293944" lifespan="1ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Network is unreachable
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T06:39:31.927985" lifespan="13ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Network is unreachable
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T07:12:39.454101" lifespan="34ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Network is unreachable
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T07:53:34.434550" lifespan="2211867ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Operation timed out
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T07:54:59.460547" lifespan="75013ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Operation timed out
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T07:56:24.511009" lifespan="75036ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Operation timed out
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T07:57:49.534255" lifespan="75016ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Operation timed out
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T07:59:14.564501" lifespan="75016ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Operation timed out
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T08:00:39.614045" lifespan="75042ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Operation timed out
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T08:02:04.645718" lifespan="75021ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Operation timed out
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T08:03:29.671272" lifespan="75014ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Operation timed out
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T08:04:54.710469" lifespan="75027ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Operation timed out
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T08:06:19.765304" lifespan="75044ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Operation timed out
+    Unable to connect
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T08:07:44.793341" lifespan="75019ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Operation timed out
+    Unable to connect
+  </connect>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:09:00.958318">
+  <info>
+    shutting down (hook)
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:09:01.078215">
+  <info>
+    shutting down
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:09:01.080289">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </trace>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.pool" at="2024-03-07T08:09:01.090270">
+  <queue-closed/>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:09:01.092814">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:09:01.093050">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </trace>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:09:01.096769">
+  <info>
+    stop Thread[txnmgr-3:idle,5,main], active sessions=3
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:09:01.097346">
+  <info>
+    stop Thread[txnmgr-0:idle,5,main], active sessions=2
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:09:01.097580">
+  <info>
+    stop Thread[txnmgr-2:idle,5,main], active sessions=1
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:09:01.097665">
+  <info>
+    stop Thread[txnmgr-1:idle,5,main], active sessions=0
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:09:01.098421">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:09:01.098802">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:09:01.099809">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:09:01.100010">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:09:01.100349">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:09:01.100752">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/00_logger.xml
+  </trace>
+</log>
+</logger>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2024-03-07T08:11:57.833605">
+  <info>
+    Q2 started, deployDir=/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy, environment=default
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:11:58.322485" lifespan="485ms">
+  <version>
+    jPOS 2.1.8 master/6c7e86f (2023-02-21 19:13:26 UYT) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:11:58.340947" lifespan="10ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:11:58.359571" lifespan="18ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:11:58.375611" lifespan="14ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:11:58.381551" lifespan="5ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:11:58.448744">
+  <info>
+    start Thread[Thread-8,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:11:58.449104">
+  <info>
+    start Thread[Thread-6,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:11:58.449214">
+  <info>
+    start Thread[Thread-7,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:11:58.449411">
+  <info>
+    start Thread[Thread-9,5,main]
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.server" at="2024-03-07T08:11:58.495249">
+  <iso-server>
+    listening on port 9009
+  </iso-server>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T08:11:58.578686" lifespan="131ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Connection established to 172.26.42.206:15155
+  </connect>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:13:10.713915">
+  <info>
+    shutting down (hook)
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:13:11.223182">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </trace>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.pool" at="2024-03-07T08:13:11.233274">
+  <queue-closed/>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:13:11.235339">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:13:11.237608">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </trace>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:13:11.239957">
+  <info>
+    stop Thread[txnmgr-0:idle,5,main], active sessions=1
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:13:11.241455" lifespan="1ms">
+  <info>
+    stop Thread[txnmgr-2:idle,5,main], active sessions=0
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:13:11.241611" lifespan="1ms">
+  <info>
+    stop Thread[txnmgr-1:idle,5,main], active sessions=2
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:13:11.241845" lifespan="1ms">
+  <info>
+    stop Thread[txnmgr-3:idle,5,main], active sessions=3
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:13:11.244280">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:13:11.244970">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:13:11.248790">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:13:11.250773">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </trace>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T08:13:11.254737" lifespan="72675ms">
+  <receive/>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:13:11.254425">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:13:11.255515">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/00_logger.xml
+  </trace>
+</log>
+</logger>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2024-03-07T08:14:01.081444">
+  <info>
+    Q2 started, deployDir=/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy, environment=default
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:14:01.548372" lifespan="451ms">
+  <version>
+    jPOS 2.1.8 master/6c7e86f (2023-02-21 19:13:26 UYT) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:14:01.566375" lifespan="10ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:14:01.582345" lifespan="15ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:14:01.595407" lifespan="12ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:14:01.601673" lifespan="5ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:14:01.672401">
+  <info>
+    start Thread[Thread-6,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:14:01.672622">
+  <info>
+    start Thread[Thread-9,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:14:01.672732">
+  <info>
+    start Thread[Thread-8,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:14:01.672822">
+  <info>
+    start Thread[Thread-7,5,main]
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.server" at="2024-03-07T08:14:01.749878">
+  <iso-server>
+    listening on port 9009
+  </iso-server>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T08:14:01.808328" lifespan="137ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Connection established to 172.26.42.206:15155
+  </connect>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.server.session/127.0.0.1:56922" at="2024-03-07T08:14:43.747474">
+  <session-start/>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009/127.0.0.1:56922" at="2024-03-07T08:14:43.750317">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0800"/>
+      <field id="7" value="0307081443"/>
+      <field id="11" value="000045"/>
+      <field id="12" value="081443"/>
+      <field id="13" value="0307"/>
+      <field id="70" value="001"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:15:13.811085" lifespan="30056ms">
+  <abort>
+    txnmgr-2:idle:1
+    <context>
+      TIMESTAMP: Thu Mar 07 08:14:43 WAT 2024
+      SOURCE: org.jpos.iso.channel.PostChannel@586ba71a
+      REQUEST: 
+       <isomsg direction="outgoing">
+         <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+         <field id="0" value="0800"/>
+         <field id="7" value="0307081443"/>
+         <field id="11" value="000045"/>
+         <field id="12" value="081443"/>
+         <field id="13" value="0307"/>
+         <field id="70" value="001"/>
+       </isomsg>
+      
+      DESTINATION: nibss_mux
+      RESULT: 
+       <result>
+         <fail>
+           [HOST_UNREACHABLE] o.j.t.p.QueryHost.expired:114 'mux.nibss_mux' does not respond
+         </fail>
+       </result>
+      
+      :paused_transaction: 
+       id: 1 (aborting)
+      
+      LOGEVT: 
+        <info>
+          RESPONSE not present
+        </info>
+      
+    </context>
+            prepare: o.j.t.p.QueryHost PREPARED PAUSE READONLY NO_JOIN
+       [force abort]
+    prepareForAbort: o.j.t.p.SendResponse
+              abort: o.j.t.p.SendResponse
+     in-transit=0/0, head=2, tail=2, paused=0, outstanding=0, active-sessions=4/70, tps=0, peak=0, avg=0.00, elapsed=30055ms
+    <profiler>
+      prepare: o.j.t.p.QueryHost [2.0/2.0]
+      resume [force abort] [30049.3/30051.3]
+      prepareForAbort: o.j.t.p.SendResponse [0.7/30052.0]
+        abort: o.j.t.p.SendResponse [0.6/30052.6]
+      end [10.9/30063.6]
+    </profiler>
+  </abort>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009/127.0.0.1:56922" at="2024-03-07T08:16:43.760894" lifespan="120005ms">
+  <receive>
+    <peer-disconnect/>
+  </receive>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.server.session/127.0.0.1:56922" at="2024-03-07T08:16:43.769493">
+  <session-end/>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T08:19:01.885409" lifespan="300076ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T08:19:01.888193" lifespan="258131ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0800"/>
+      <field id="7" value="0307081443"/>
+      <field id="11" value="000045"/>
+      <field id="12" value="081443"/>
+      <field id="13" value="0307"/>
+      <field id="70" value="001"/>
+    </isomsg>
+    <exception name="Socket closed">
+    java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:253)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:332)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:355)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:808)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:484)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:478)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455)
+	at java.base/sun.security.ssl.SSLSocketImpl.ensureNegotiated(SSLSocketImpl.java:925)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1295)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at java.base/java.io.DataOutputStream.flush(DataOutputStream.java:128)
+	at org.jpos.iso.BaseChannel.send(BaseChannel.java:604)
+	at org.jpos.q2.iso.ChannelAdaptor$Sender.run(ChannelAdaptor.java:299)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+    </exception>
+  </send>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-03-07T08:19:01.893455">
+  <warn>
+    channel-receiver-com.lovisgod.tranctiontest-channel_receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-03-07T08:19:01.894930">
+  <warn>
+    channel-sender-com.lovisgod.tranctiontest-channel_send
+    Socket closed
+  </warn>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T08:19:11.973588" lifespan="40ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Connection established to 172.26.42.206:15155
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T08:24:12.026443" lifespan="300043ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-03-07T08:24:12.034353">
+  <warn>
+    channel-receiver-com.lovisgod.tranctiontest-channel_receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T08:24:22.136429" lifespan="25ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Connection established to 172.26.42.206:15155
+  </connect>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:24:36.449324">
+  <info>
+    shutting down (hook)
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:24:36.564614">
+  <info>
+    shutting down
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:24:36.565677">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </trace>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.pool" at="2024-03-07T08:24:36.575186">
+  <queue-closed/>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:24:36.580313">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:24:36.580897">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </trace>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:24:36.584101">
+  <info>
+    stop Thread[txnmgr-3:idle,5,main], active sessions=2
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:24:36.585721" lifespan="1ms">
+  <info>
+    stop Thread[txnmgr-2:idle,5,main], active sessions=3
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:24:36.586135">
+  <info>
+    stop Thread[txnmgr-0:idle,5,main], active sessions=1
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:24:36.586431">
+  <info>
+    stop Thread[txnmgr-1:idle,5,main], active sessions=0
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:24:36.588409">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:24:36.588746">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:24:36.589333">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:24:36.589491">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:24:36.590340">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:24:36.590456">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/00_logger.xml
+  </trace>
+</log>
+</logger>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2024-03-07T08:24:47.421209">
+  <info>
+    Q2 started, deployDir=/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy, environment=default
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:24:47.880791" lifespan="456ms">
+  <version>
+    jPOS 2.1.8 master/6c7e86f (2023-02-21 19:13:26 UYT) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:24:47.899003" lifespan="11ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:24:47.915424" lifespan="15ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:24:47.929445" lifespan="12ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:24:47.937685" lifespan="7ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:24:48.002583">
+  <info>
+    start Thread[Thread-6,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:24:48.002731">
+  <info>
+    start Thread[Thread-7,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:24:48.002884">
+  <info>
+    start Thread[Thread-9,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:24:48.002957">
+  <info>
+    start Thread[Thread-8,5,main]
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.server" at="2024-03-07T08:24:48.041293">
+  <iso-server>
+    listening on port 9009
+  </iso-server>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T08:24:48.131275" lifespan="129ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Connection established to 172.26.42.206:15155
+  </connect>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.server.session/127.0.0.1:58194" at="2024-03-07T08:25:07.654825">
+  <session-start/>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009/127.0.0.1:58194" at="2024-03-07T08:25:07.657989">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0800"/>
+      <field id="7" value="0307082507"/>
+      <field id="11" value="000046"/>
+      <field id="12" value="082507"/>
+      <field id="13" value="0307"/>
+      <field id="70" value="001"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:25:25.137364">
+  <info>
+    shutting down (hook)
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:25:25.667666">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:25:25.679872">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009/127.0.0.1:58194" at="2024-03-07T08:25:25.686231" lifespan="18025ms">
+  <receive/>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:25:25.688068">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </trace>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.server.session/127.0.0.1:58194" at="2024-03-07T08:25:25.692751" lifespan="3ms">
+  <session-end/>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:25:25.694967">
+  <info>
+    stop Thread[txnmgr-1:idle,5,main], active sessions=3
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:25:25.695721">
+  <info>
+    stop Thread[txnmgr-3:idle,5,main], active sessions=0
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:25:25.696535" lifespan="1ms">
+  <info>
+    stop Thread[txnmgr-0:idle,5,main], active sessions=2
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:25:25.696389" lifespan="1ms">
+  <info>
+    stop Thread[txnmgr-2:idle,5,main], active sessions=1
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:25:25.698273">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:25:25.698850">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:25:25.699487">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:25:25.700135">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </trace>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T08:25:25.702901" lifespan="37570ms">
+  <receive/>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T08:25:25.703024" lifespan="18039ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0800"/>
+      <field id="7" value="0307082507"/>
+      <field id="11" value="000046"/>
+      <field id="12" value="082507"/>
+      <field id="13" value="0307"/>
+      <field id="70" value="001"/>
+    </isomsg>
+    <exception name="Connection or outbound has closed">
+    java.net.SocketException: Connection or outbound has closed
+	at java.base/sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1301)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at java.base/java.io.DataOutputStream.flush(DataOutputStream.java:128)
+	at org.jpos.iso.BaseChannel.send(BaseChannel.java:604)
+	at org.jpos.q2.iso.ChannelAdaptor$Sender.run(ChannelAdaptor.java:299)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+    </exception>
+  </send>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:25:25.703567">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-03-07T08:25:25.703978">
+  <warn>
+    channel-sender-com.lovisgod.tranctiontest-channel_send
+    Connection or outbound has closed
+  </warn>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:25:25.704072">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/00_logger.xml
+  </trace>
+</log>
+</logger>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2024-03-07T08:27:24.177629">
+  <info>
+    Q2 started, deployDir=/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy, environment=default
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:27:24.638746" lifespan="457ms">
+  <version>
+    jPOS 2.1.8 master/6c7e86f (2023-02-21 19:13:26 UYT) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:27:24.654030" lifespan="9ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:27:24.672194" lifespan="17ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:27:24.685662" lifespan="12ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:27:24.692460" lifespan="6ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:27:24.757872">
+  <info>
+    start Thread[Thread-6,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:27:24.758089">
+  <info>
+    start Thread[Thread-9,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:27:24.758197">
+  <info>
+    start Thread[Thread-8,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:27:24.758272">
+  <info>
+    start Thread[Thread-7,5,main]
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.server" at="2024-03-07T08:27:24.799040">
+  <iso-server>
+    listening on port 9009
+  </iso-server>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T08:27:24.878338" lifespan="121ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Connection established to 172.26.42.206:15155
+  </connect>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.server.session/127.0.0.1:62622" at="2024-03-07T08:27:42.297901">
+  <session-start/>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009/127.0.0.1:62622" at="2024-03-07T08:27:42.302246">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0800"/>
+      <field id="7" value="0307082742"/>
+      <field id="11" value="000047"/>
+      <field id="12" value="082742"/>
+      <field id="13" value="0307"/>
+      <field id="70" value="001"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:28:12.369875" lifespan="30062ms">
+  <abort>
+    txnmgr-0:idle:1
+    <context>
+      TIMESTAMP: Thu Mar 07 08:27:42 WAT 2024
+      SOURCE: org.jpos.iso.channel.PostChannel@10a080bb
+      REQUEST: 
+       <isomsg direction="outgoing">
+         <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+         <field id="0" value="0800"/>
+         <field id="7" value="0307082742"/>
+         <field id="11" value="000047"/>
+         <field id="12" value="082742"/>
+         <field id="13" value="0307"/>
+         <field id="70" value="001"/>
+       </isomsg>
+      
+      DESTINATION: nibss_mux
+      RESULT: 
+       <result>
+         <fail>
+           [HOST_UNREACHABLE] o.j.t.p.QueryHost.expired:114 'mux.nibss_mux' does not respond
+         </fail>
+       </result>
+      
+      :paused_transaction: 
+       id: 1 (aborting)
+      
+      LOGEVT: 
+        <info>
+          RESPONSE not present
+        </info>
+      
+    </context>
+            prepare: o.j.t.p.QueryHost PREPARED PAUSE READONLY NO_JOIN
+       [force abort]
+    prepareForAbort: o.j.t.p.SendResponse
+              abort: o.j.t.p.SendResponse
+     in-transit=0/0, head=2, tail=2, paused=0, outstanding=0, active-sessions=4/70, tps=0, peak=0, avg=0.00, elapsed=30061ms
+    <profiler>
+      prepare: o.j.t.p.QueryHost [2.9/2.9]
+      resume [force abort] [30052.2/30055.1]
+      prepareForAbort: o.j.t.p.SendResponse [1.6/30056.8]
+        abort: o.j.t.p.SendResponse [0.6/30057.4]
+      end [19.8/30077.2]
+    </profiler>
+  </abort>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009/127.0.0.1:62622" at="2024-03-07T08:29:42.337324" lifespan="120030ms">
+  <receive>
+    <peer-disconnect/>
+  </receive>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.server.session/127.0.0.1:62622" at="2024-03-07T08:29:42.346038">
+  <session-end/>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T08:32:24.950552" lifespan="300071ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T08:32:24.953154" lifespan="282642ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0800"/>
+      <field id="7" value="0307082742"/>
+      <field id="11" value="000047"/>
+      <field id="12" value="082742"/>
+      <field id="13" value="0307"/>
+      <field id="70" value="001"/>
+    </isomsg>
+    <exception name="Socket closed">
+    java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:253)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:332)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:355)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:808)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:484)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:478)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455)
+	at java.base/sun.security.ssl.SSLSocketImpl.ensureNegotiated(SSLSocketImpl.java:925)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1295)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at java.base/java.io.DataOutputStream.flush(DataOutputStream.java:128)
+	at org.jpos.iso.BaseChannel.send(BaseChannel.java:604)
+	at org.jpos.q2.iso.ChannelAdaptor$Sender.run(ChannelAdaptor.java:299)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+    </exception>
+  </send>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-03-07T08:32:24.966573" lifespan="5ms">
+  <warn>
+    channel-receiver-com.lovisgod.tranctiontest-channel_receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-03-07T08:32:24.968358">
+  <warn>
+    channel-sender-com.lovisgod.tranctiontest-channel_send
+    Socket closed
+  </warn>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T08:32:35.056972" lifespan="51ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Connection established to 172.26.42.206:15155
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T08:37:35.085908" lifespan="300019ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-03-07T08:37:35.087364">
+  <warn>
+    channel-receiver-com.lovisgod.tranctiontest-channel_receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T08:37:45.138840" lifespan="17ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Connection established to 172.26.42.206:15155
+  </connect>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:41:27.243928">
+  <info>
+    shutting down (hook)
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:41:27.343275">
+  <info>
+    shutting down
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:41:27.344822">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </trace>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.pool" at="2024-03-07T08:41:27.348951">
+  <queue-closed/>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:41:27.352310">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:41:27.352560">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </trace>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:41:27.353933">
+  <info>
+    stop Thread[txnmgr-3:idle,5,main], active sessions=2
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:41:27.354139">
+  <info>
+    stop Thread[txnmgr-1:idle,5,main], active sessions=1
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:41:27.354188">
+  <info>
+    stop Thread[txnmgr-0:idle,5,main], active sessions=3
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:41:27.354295">
+  <info>
+    stop Thread[txnmgr-2:idle,5,main], active sessions=0
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:41:27.354786">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:41:27.354911">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:41:27.355315">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:41:27.355422">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:41:27.356170">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:41:27.356325">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/00_logger.xml
+  </trace>
+</log>
+</logger>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2024-03-07T08:41:52.082974">
+  <info>
+    Q2 started, deployDir=/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy, environment=default
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:41:52.552249" lifespan="466ms">
+  <version>
+    jPOS 2.1.8 master/6c7e86f (2023-02-21 19:13:26 UYT) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:41:52.572235" lifespan="12ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:41:52.589865" lifespan="17ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:41:52.608259" lifespan="17ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:41:52.616376" lifespan="7ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:41:52.693796">
+  <info>
+    start Thread[Thread-6,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:41:52.695628">
+  <info>
+    start Thread[Thread-7,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:41:52.695841">
+  <info>
+    start Thread[Thread-8,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:41:52.695910">
+  <info>
+    start Thread[Thread-9,5,main]
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.server" at="2024-03-07T08:41:52.755659">
+  <iso-server>
+    listening on port 9009
+  </iso-server>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T08:41:52.867746" lifespan="175ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Connection established to 172.26.42.206:15155
+  </connect>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.server.session/127.0.0.1:53987" at="2024-03-07T08:42:00.814645">
+  <session-start/>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009/127.0.0.1:53987" at="2024-03-07T08:42:00.816299">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0800"/>
+      <field id="7" value="0307084200"/>
+      <field id="11" value="000048"/>
+      <field id="12" value="084200"/>
+      <field id="13" value="0307"/>
+      <field id="70" value="001"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:42:30.900023" lifespan="30078ms">
+  <abort>
+    txnmgr-0:idle:1
+    <context>
+      TIMESTAMP: Thu Mar 07 08:42:00 WAT 2024
+      SOURCE: org.jpos.iso.channel.PostChannel@655ac665
+      REQUEST: 
+       <isomsg direction="outgoing">
+         <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+         <field id="0" value="0800"/>
+         <field id="7" value="0307084200"/>
+         <field id="11" value="000048"/>
+         <field id="12" value="084200"/>
+         <field id="13" value="0307"/>
+         <field id="70" value="001"/>
+       </isomsg>
+      
+      DESTINATION: nibss_mux
+      RESULT: 
+       <result>
+         <fail>
+           [HOST_UNREACHABLE] o.j.t.p.QueryHost.expired:114 'mux.nibss_mux' does not respond
+         </fail>
+       </result>
+      
+      :paused_transaction: 
+       id: 1 (aborting)
+      
+      LOGEVT: 
+        <info>
+          RESPONSE not present
+        </info>
+      
+    </context>
+            prepare: o.j.t.p.QueryHost PREPARED PAUSE READONLY NO_JOIN
+       [force abort]
+    prepareForAbort: o.j.t.p.SendResponse
+              abort: o.j.t.p.SendResponse
+     in-transit=0/0, head=2, tail=2, paused=0, outstanding=0, active-sessions=4/70, tps=0, peak=0, avg=0.00, elapsed=30078ms
+    <profiler>
+      prepare: o.j.t.p.QueryHost [2.8/2.8]
+      resume [force abort] [30058.8/30061.7]
+      prepareForAbort: o.j.t.p.SendResponse [5.5/30067.2]
+        abort: o.j.t.p.SendResponse [2.5/30069.7]
+      end [17.0/30086.8]
+    </profiler>
+  </abort>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009/127.0.0.1:53987" at="2024-03-07T08:44:00.823674" lifespan="120002ms">
+  <receive>
+    <peer-disconnect/>
+  </receive>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.server.session/127.0.0.1:53987" at="2024-03-07T08:44:00.832063">
+  <session-end/>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:44:40.023674">
+  <info>
+    shutting down (hook)
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:44:40.105048">
+  <info>
+    shutting down
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:44:40.106376">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </trace>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.pool" at="2024-03-07T08:44:40.109587">
+  <queue-closed/>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:44:40.110004">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:44:40.110667">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </trace>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:44:40.112598">
+  <info>
+    stop Thread[txnmgr-0:idle,5,main], active sessions=3
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:44:40.112686">
+  <info>
+    stop Thread[txnmgr-1:idle,5,main], active sessions=0
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:44:40.112805">
+  <info>
+    stop Thread[txnmgr-3:idle,5,main], active sessions=2
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:44:40.112744">
+  <info>
+    stop Thread[txnmgr-2:idle,5,main], active sessions=1
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:44:40.113269">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:44:40.113399">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:44:40.113705">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:44:40.114016">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </trace>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T08:44:40.117117" lifespan="159292ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0800"/>
+      <field id="7" value="0307084200"/>
+      <field id="11" value="000048"/>
+      <field id="12" value="084200"/>
+      <field id="13" value="0307"/>
+      <field id="70" value="001"/>
+    </isomsg>
+    <exception name="Connection or outbound has closed">
+    java.net.SocketException: Connection or outbound has closed
+	at java.base/sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1301)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at java.base/java.io.DataOutputStream.flush(DataOutputStream.java:128)
+	at org.jpos.iso.BaseChannel.send(BaseChannel.java:604)
+	at org.jpos.q2.iso.ChannelAdaptor$Sender.run(ChannelAdaptor.java:299)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+    </exception>
+  </send>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:44:40.119008" lifespan="1ms">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T08:44:40.119083" lifespan="167249ms">
+  <receive/>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-03-07T08:44:40.119382">
+  <warn>
+    channel-sender-com.lovisgod.tranctiontest-channel_send
+    Connection or outbound has closed
+  </warn>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:44:40.119464">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/00_logger.xml
+  </trace>
+</log>
+</logger>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2024-03-07T08:45:35.456534">
+  <info>
+    Q2 started, deployDir=/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy, environment=default
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:45:35.915463" lifespan="455ms">
+  <version>
+    jPOS 2.1.8 master/6c7e86f (2023-02-21 19:13:26 UYT) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:45:35.934905" lifespan="11ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:45:35.951309" lifespan="16ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:45:35.965504" lifespan="13ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:45:35.972655" lifespan="6ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:45:36.041755">
+  <info>
+    start Thread[Thread-6,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:45:36.041888">
+  <info>
+    start Thread[Thread-7,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:45:36.041985">
+  <info>
+    start Thread[Thread-8,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:45:36.042094">
+  <info>
+    start Thread[Thread-9,5,main]
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.server" at="2024-03-07T08:45:36.076861">
+  <iso-server>
+    listening on port 9009
+  </iso-server>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T08:45:36.170450" lifespan="129ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Connection established to 172.26.42.206:15155
+  </connect>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.server.session/127.0.0.1:62940" at="2024-03-07T08:47:15.877373">
+  <session-start/>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:49:38.218833">
+  <info>
+    shutting down (hook)
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:49:38.331794">
+  <info>
+    shutting down
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:49:38.332939">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:49:38.339875">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009/127.0.0.1:62940" at="2024-03-07T08:49:38.340220" lifespan="142455ms">
+  <receive/>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:49:38.340758">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </trace>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.server.session/127.0.0.1:62940" at="2024-03-07T08:49:38.343796">
+  <session-end/>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:49:38.348108">
+  <info>
+    stop Thread[txnmgr-3:idle,5,main], active sessions=3
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:49:38.348731">
+  <info>
+    stop Thread[txnmgr-2:idle,5,main], active sessions=2
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:49:38.348826">
+  <info>
+    stop Thread[txnmgr-1:idle,5,main], active sessions=1
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:49:38.349223">
+  <info>
+    stop Thread[txnmgr-0:idle,5,main], active sessions=0
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:49:38.351757">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:49:38.352015">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:49:38.353003">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:49:38.353216">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:49:38.356067">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T08:49:38.356208" lifespan="242184ms">
+  <receive/>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:49:38.356357">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/00_logger.xml
+  </trace>
+</log>
+</logger>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2024-03-07T08:50:00.423068">
+  <info>
+    Q2 started, deployDir=/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy, environment=default
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:50:00.890109" lifespan="463ms">
+  <version>
+    jPOS 2.1.8 master/6c7e86f (2023-02-21 19:13:26 UYT) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:50:00.910030" lifespan="11ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:50:00.926755" lifespan="15ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:50:00.942235" lifespan="14ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:50:00.950729" lifespan="7ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:50:01.019858">
+  <info>
+    start Thread[Thread-6,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:50:01.020527">
+  <info>
+    start Thread[Thread-7,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:50:01.020684">
+  <info>
+    start Thread[Thread-9,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:50:01.020731">
+  <info>
+    start Thread[Thread-8,5,main]
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.server" at="2024-03-07T08:50:01.056464">
+  <iso-server>
+    listening on port 9009
+  </iso-server>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T08:50:01.146259" lifespan="128ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Connection established to 172.26.42.206:15155
+  </connect>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:51:29.679618">
+  <info>
+    shutting down (hook)
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:51:29.752860">
+  <info>
+    shutting down
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:51:29.754809">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </trace>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.pool" at="2024-03-07T08:51:29.771942">
+  <queue-closed/>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:51:29.774530">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:51:29.775123">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </trace>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:51:29.775817">
+  <info>
+    stop Thread[txnmgr-1:idle,5,main], active sessions=3
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:51:29.776023">
+  <info>
+    stop Thread[txnmgr-0:idle,5,main], active sessions=0
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:51:29.775884">
+  <info>
+    stop Thread[txnmgr-3:idle,5,main], active sessions=1
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:51:29.775951">
+  <info>
+    stop Thread[txnmgr-2:idle,5,main], active sessions=2
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:51:29.776519">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:51:29.777679">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:51:29.778024">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:51:29.778765">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </trace>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T08:51:29.782625" lifespan="88635ms">
+  <receive/>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:51:29.782498">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:51:29.782834">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/00_logger.xml
+  </trace>
+</log>
+</logger>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2024-03-07T08:51:40.306731">
+  <info>
+    Q2 started, deployDir=/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy, environment=default
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:51:40.846759" lifespan="535ms">
+  <version>
+    jPOS 2.1.8 master/6c7e86f (2023-02-21 19:13:26 UYT) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:51:40.862747" lifespan="9ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:51:40.883605" lifespan="20ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:51:40.898978" lifespan="14ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:51:40.906713" lifespan="7ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:51:40.977986">
+  <info>
+    start Thread[Thread-6,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:51:40.978162">
+  <info>
+    start Thread[Thread-8,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:51:40.978300">
+  <info>
+    start Thread[Thread-7,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:51:40.978380">
+  <info>
+    start Thread[Thread-9,5,main]
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.server" at="2024-03-07T08:51:41.016927">
+  <iso-server>
+    listening on port 9009
+  </iso-server>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T08:51:41.099092" lifespan="122ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Connection established to 172.26.42.206:15155
+  </connect>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T08:56:41.159263" lifespan="300058ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-03-07T08:56:41.165871">
+  <warn>
+    channel-receiver-com.lovisgod.tranctiontest-channel_receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T08:56:51.244958" lifespan="30ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Connection established to 172.26.42.206:15155
+  </connect>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:58:14.701457">
+  <info>
+    shutting down (hook)
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:58:14.767686">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </trace>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.pool" at="2024-03-07T08:58:14.784818">
+  <queue-closed/>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:58:14.786534">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:58:14.786775">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </trace>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:58:14.788864">
+  <info>
+    stop Thread[txnmgr-0:idle,5,main], active sessions=3
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:58:14.791362" lifespan="1ms">
+  <info>
+    stop Thread[txnmgr-2:idle,5,main], active sessions=0
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:58:14.791835" lifespan="1ms">
+  <info>
+    stop Thread[txnmgr-1:idle,5,main], active sessions=1
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T08:58:14.791938" lifespan="2ms">
+  <info>
+    stop Thread[txnmgr-3:idle,5,main], active sessions=2
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:58:14.792393">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:58:14.792572">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:58:14.798335">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:58:14.798476">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:58:14.799790">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T08:58:14.800018" lifespan="83551ms">
+  <receive/>
+</log>
+<log realm="Q2.system" at="2024-03-07T08:58:14.800118">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/00_logger.xml
+  </trace>
+</log>
+</logger>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2024-03-07T09:00:53.905179">
+  <info>
+    Q2 started, deployDir=/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy, environment=default
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T09:00:54.366105" lifespan="458ms">
+  <version>
+    jPOS 2.1.8 master/6c7e86f (2023-02-21 19:13:26 UYT) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2024-03-07T09:00:54.387661" lifespan="14ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T09:00:54.407975" lifespan="19ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T09:00:54.423712" lifespan="14ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T09:00:54.430484" lifespan="6ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T09:00:54.497856">
+  <info>
+    start Thread[Thread-6,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T09:00:54.498524">
+  <info>
+    start Thread[Thread-7,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T09:00:54.498680">
+  <info>
+    start Thread[Thread-8,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T09:00:54.498622">
+  <info>
+    start Thread[Thread-9,5,main]
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.server" at="2024-03-07T09:00:54.536712">
+  <iso-server>
+    listening on port 9009
+  </iso-server>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T09:00:54.639285" lifespan="143ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Connection established to 172.26.42.206:15155
+  </connect>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.server.session/127.0.0.1:53665" at="2024-03-07T09:01:07.380145">
+  <session-start/>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009/127.0.0.1:53665" at="2024-03-07T09:01:07.382461">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0800"/>
+      <field id="7" value="0307090107"/>
+      <field id="11" value="000050"/>
+      <field id="12" value="090107"/>
+      <field id="13" value="0307"/>
+      <field id="70" value="001"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T09:01:37.468510" lifespan="30083ms">
+  <abort>
+    txnmgr-3:idle:1
+    <context>
+      TIMESTAMP: Thu Mar 07 09:01:07 WAT 2024
+      SOURCE: org.jpos.iso.channel.NACChannel@7da9570e
+      REQUEST: 
+       <isomsg direction="outgoing">
+         <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+         <field id="0" value="0800"/>
+         <field id="7" value="0307090107"/>
+         <field id="11" value="000050"/>
+         <field id="12" value="090107"/>
+         <field id="13" value="0307"/>
+         <field id="70" value="001"/>
+       </isomsg>
+      
+      DESTINATION: nibss_mux
+      RESULT: 
+       <result>
+         <fail>
+           [HOST_UNREACHABLE] o.j.t.p.QueryHost.expired:114 'mux.nibss_mux' does not respond
+         </fail>
+       </result>
+      
+      :paused_transaction: 
+       id: 1 (aborting)
+      
+      LOGEVT: 
+        <info>
+          RESPONSE not present
+        </info>
+      
+    </context>
+            prepare: o.j.t.p.QueryHost PREPARED PAUSE READONLY NO_JOIN
+       [force abort]
+    prepareForAbort: o.j.t.p.SendResponse
+              abort: o.j.t.p.SendResponse
+     in-transit=0/0, head=2, tail=2, paused=0, outstanding=0, active-sessions=4/70, tps=0, peak=0, avg=0.00, elapsed=30082ms
+    <profiler>
+      prepare: o.j.t.p.QueryHost [1.9/1.9]
+      resume [force abort] [30074.7/30076.7]
+      prepareForAbort: o.j.t.p.SendResponse [1.2/30078.0]
+        abort: o.j.t.p.SendResponse [1.0/30079.0]
+      end [14.7/30093.8]
+    </profiler>
+  </abort>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009/127.0.0.1:53665" at="2024-03-07T09:03:07.388627" lifespan="120003ms">
+  <receive>
+    <peer-disconnect/>
+  </receive>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.server.session/127.0.0.1:53665" at="2024-03-07T09:03:07.390471">
+  <session-end/>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T09:05:54.696147" lifespan="300056ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T09:05:54.710739" lifespan="287323ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0800"/>
+      <field id="7" value="0307090107"/>
+      <field id="11" value="000050"/>
+      <field id="12" value="090107"/>
+      <field id="13" value="0307"/>
+      <field id="70" value="001"/>
+    </isomsg>
+    <exception name="Socket closed">
+    java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:253)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:332)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:355)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:808)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:484)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:478)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455)
+	at java.base/sun.security.ssl.SSLSocketImpl.ensureNegotiated(SSLSocketImpl.java:925)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1295)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at java.base/java.io.DataOutputStream.flush(DataOutputStream.java:128)
+	at org.jpos.iso.BaseChannel.send(BaseChannel.java:604)
+	at org.jpos.q2.iso.ChannelAdaptor$Sender.run(ChannelAdaptor.java:299)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+    </exception>
+  </send>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-03-07T09:05:54.716563" lifespan="1ms">
+  <warn>
+    channel-receiver-com.lovisgod.tranctiontest-channel_receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-03-07T09:05:54.717698">
+  <warn>
+    channel-sender-com.lovisgod.tranctiontest-channel_send
+    Socket closed
+  </warn>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T09:06:04.788907" lifespan="32ms">
+  <connect>
+    Try 0 172.26.42.206:15155
+      Connection established to 172.26.42.206:15155
+  </connect>
+</log>
+<log realm="Q2.system" at="2024-03-07T09:09:36.190877">
+  <info>
+    shutting down (hook)
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T09:09:36.261989">
+  <info>
+    shutting down
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T09:09:36.263525">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </trace>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.pool" at="2024-03-07T09:09:36.266184">
+  <queue-closed/>
+</log>
+<log realm="Q2.system" at="2024-03-07T09:09:36.267748">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T09:09:36.267963">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </trace>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T09:09:36.270226">
+  <info>
+    stop Thread[txnmgr-3:idle,5,main], active sessions=3
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T09:09:36.270709">
+  <info>
+    stop Thread[txnmgr-1:idle,5,main], active sessions=1
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T09:09:36.270819">
+  <info>
+    stop Thread[txnmgr-2:idle,5,main], active sessions=2
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-03-07T09:09:36.270913">
+  <info>
+    stop Thread[txnmgr-0:idle,5,main], active sessions=0
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T09:09:36.271434">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T09:09:36.271676">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2024-03-07T09:09:36.272629">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-03-07T09:09:36.273864">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2024-03-07T09:09:36.275304">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="nibss-channel/172.26.42.206:15155" at="2024-03-07T09:09:36.275553" lifespan="211483ms">
+  <receive/>
+</log>
+<log realm="Q2.system" at="2024-03-07T09:09:36.275657">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/00_logger.xml
+  </trace>
+</log>
+</logger>
