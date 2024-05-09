@@ -1,18 +1,20 @@
 <?xml version="1.0"  ?>
 
-<channel-adaptor name='com.lovisgod.tranctiontest-channel' class="org.jpos.q2.iso.ChannelAdaptor" logger="Q2">
+<channel-adaptor name='postbridge-channel' class="org.jpos.q2.iso.ChannelAdaptor" logger="Q2">
     <channel class="org.jpos.iso.channel.PostChannel"
              packager="org.jpos.iso.packager.GenericPackager"
-             realm="nibss-channel" logger="Q2">
-        <property name="socketFactory" value="com.lovisgod.tranctiontest.services.SocketFactoryUtils"/>
+             realm="postbridge-channel" logger="Q2">
+<!--        <property name="socketFactory" value="com.lovisgod.tranctiontest.services.SocketFactoryUtils"/>-->
         <property name="packager-config"
                   value="cfg/packager/postpack.xml"/>
         <property name="host"  value="172.26.42.206"/>
         <property name="port" value="15155"/>
+<!--        <property name="host" value="isobridge.jpos.org"/>-->
+<!--        <property name="port" value="9000" />-->
         <property name="timeout" value="300000"/>
         <property name="keep-alive" value="true"/>
     </channel>
-    <in>com.lovisgod.tranctiontest-channel_send</in>
-    <out>com.lovisgod.tranctiontest-channel_receive</out>
+    <in>postbridge-send</in>
+    <out>postbridge-receive</out>
     <reconnect-delay>10000</reconnect-delay>
 </channel-adaptor>

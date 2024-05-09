@@ -1,7 +1,7 @@
 <txnmgr class="org.jpos.transaction.TransactionManager" logger="Q2">
     <property name="queue" value="TXNMGR"/>
     <property name="sessions" value="4"/>
-    <property name="max-sessions" value="70"/>
+    <property name="max-sessions" value="128"/>
     <property name="profiler" value="true"/>
     <property name="debug" value="true"/>
     <participant class="org.jpos.transaction.participant.QueryHost"/>
