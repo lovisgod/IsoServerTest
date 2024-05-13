@@ -277,7 +277,7 @@
       class="org.jpos.iso.IFB_BINARY"/>
   <isofield
       id="53"
-      length="48"
+      length="16"
       name="SECURITY RELATED CONTROL INFORMATION"
       class="org.jpos.iso.IFB_BINARY "/>
   <isofield
@@ -776,10 +776,10 @@
           id="24"
           length="28"
           name="PAYER ACCOUNT INFORMATION"
-          class="org.jpos.iso.IFA_LLCHAR"/>
+          class="org.jpos.iso.IF_CHAR"/>
       <isofield
           id="25"
-          length="8000"
+          length="9999"
           name="ICC DATA"
           class="org.jpos.iso.IFA_LLLLCHAR"/>
       <isofield
@@ -787,6 +787,16 @@
           length="20"
           name="ORIGINAL NODE"
           class="org.jpos.iso.IFA_LLCHAR"/>
+    <isofield
+            id="33"
+            length="4"
+            name="EXTENDED TRANSACTION TYPE"
+            class="org.jpos.iso.IF_CHAR"/>
+    <isofield
+            id="41"
+            length="19"
+            name="ORIGINATING REMOTE ADDRESS"
+            class="org.jpos.iso.IF_CHAR"/>
   </isofieldpackager>
 
   <isofield

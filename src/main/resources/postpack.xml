@@ -277,9 +277,9 @@
       class="org.jpos.iso.IFB_BINARY"/>
   <isofield
       id="53"
-      length="48"
+      length="16"
       name="SECURITY RELATED CONTROL INFORMATION"
-      class="org.jpos.iso.IFB_BINARY "/>
+      class="org.jpos.iso.IFA_BINARY "/>
   <isofield
       id="54"
       length="120"
