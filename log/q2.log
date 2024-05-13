@@ -280629,3 +280629,487 @@ q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
     Echo message sent: 
   </info>
 </log>
+<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-13T14:34:48.060470">
+  <info>
+    mux.isConnected {}
+    true
+  </info>
+</log>
+<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-13T14:34:48.064874" lifespan="2ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0800"/>
+      <field id="7" value="0513143448"/>
+      <field id="11" value="005217"/>
+      <field id="12" value="143448"/>
+      <field id="13" value="0513"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-13T14:34:48.672134" lifespan="30620ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0810"/>
+      <field id="7" value="0513143448"/>
+      <field id="11" value="005217"/>
+      <field id="12" value="143448"/>
+      <field id="13" value="0513"/>
+      <field id="39" value="00"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-13T14:34:48.677695">
+  <info>
+    mux.isConnected {}
+    true
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-13T14:34:48.677987">
+  <info>
+    Echo message sent: 
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-13T14:35:18.701442">
+  <info>
+    mux.isConnected {}
+    true
+  </info>
+</log>
+<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-13T14:35:18.706263" lifespan="1ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0800"/>
+      <field id="7" value="0513143518"/>
+      <field id="11" value="005218"/>
+      <field id="12" value="143518"/>
+      <field id="13" value="0513"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-13T14:35:19.006364" lifespan="30328ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0810"/>
+      <field id="7" value="0513143518"/>
+      <field id="11" value="005218"/>
+      <field id="12" value="143518"/>
+      <field id="13" value="0513"/>
+      <field id="39" value="00"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-13T14:35:19.007315">
+  <info>
+    mux.isConnected {}
+    true
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-13T14:35:19.007918">
+  <info>
+    Echo message sent: 
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-13T14:35:49.032292" lifespan="1ms">
+  <info>
+    mux.isConnected {}
+    true
+  </info>
+</log>
+<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-13T14:35:49.049942" lifespan="1ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0800"/>
+      <field id="7" value="0513143549"/>
+      <field id="11" value="005219"/>
+      <field id="12" value="143549"/>
+      <field id="13" value="0513"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-13T14:35:49.380710" lifespan="30373ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0810"/>
+      <field id="7" value="0513143549"/>
+      <field id="11" value="005219"/>
+      <field id="12" value="143549"/>
+      <field id="13" value="0513"/>
+      <field id="39" value="00"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-13T14:35:49.382578">
+  <info>
+    mux.isConnected {}
+    true
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-13T14:35:49.382839">
+  <info>
+    Echo message sent: 
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-13T14:36:19.395951">
+  <info>
+    mux.isConnected {}
+    true
+  </info>
+</log>
+<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-13T14:36:19.403728" lifespan="1ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0800"/>
+      <field id="7" value="0513143619"/>
+      <field id="11" value="005220"/>
+      <field id="12" value="143619"/>
+      <field id="13" value="0513"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-13T14:36:19.955255" lifespan="30572ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0810"/>
+      <field id="7" value="0513143619"/>
+      <field id="11" value="005220"/>
+      <field id="12" value="143619"/>
+      <field id="13" value="0513"/>
+      <field id="39" value="00"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-13T14:36:19.990541">
+  <info>
+    mux.isConnected {}
+    true
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-13T14:36:19.991387">
+  <info>
+    Echo message sent: 
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-13T14:36:50.008506">
+  <info>
+    mux.isConnected {}
+    true
+  </info>
+</log>
+<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-13T14:36:50.013564" lifespan="1ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0800"/>
+      <field id="7" value="0513143649"/>
+      <field id="11" value="005221"/>
+      <field id="12" value="143649"/>
+      <field id="13" value="0513"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-13T14:36:50.271951" lifespan="30281ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0810"/>
+      <field id="7" value="0513143649"/>
+      <field id="11" value="005221"/>
+      <field id="12" value="143649"/>
+      <field id="13" value="0513"/>
+      <field id="39" value="00"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-13T14:36:50.273346">
+  <info>
+    mux.isConnected {}
+    true
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-13T14:36:50.274104">
+  <info>
+    Echo message sent: 
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-13T14:37:20.304585">
+  <info>
+    mux.isConnected {}
+    true
+  </info>
+</log>
+<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-13T14:37:20.311600">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0800"/>
+      <field id="7" value="0513143720"/>
+      <field id="11" value="005222"/>
+      <field id="12" value="143720"/>
+      <field id="13" value="0513"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-13T14:37:20.576392" lifespan="30303ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0810"/>
+      <field id="7" value="0513143720"/>
+      <field id="11" value="005222"/>
+      <field id="12" value="143720"/>
+      <field id="13" value="0513"/>
+      <field id="39" value="00"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-13T14:37:20.583683">
+  <info>
+    mux.isConnected {}
+    true
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-13T14:37:20.584976">
+  <info>
+    Echo message sent: 
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-13T14:37:50.610960">
+  <info>
+    mux.isConnected {}
+    true
+  </info>
+</log>
+<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-13T14:37:50.624310" lifespan="7ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0800"/>
+      <field id="7" value="0513143750"/>
+      <field id="11" value="005223"/>
+      <field id="12" value="143750"/>
+      <field id="13" value="0513"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-13T14:37:50.889090" lifespan="30308ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0810"/>
+      <field id="7" value="0513143750"/>
+      <field id="11" value="005223"/>
+      <field id="12" value="143750"/>
+      <field id="13" value="0513"/>
+      <field id="39" value="00"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-13T14:37:50.891503">
+  <info>
+    mux.isConnected {}
+    true
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-13T14:37:50.891941">
+  <info>
+    Echo message sent: 
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-13T14:38:20.924900">
+  <info>
+    mux.isConnected {}
+    true
+  </info>
+</log>
+<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-13T14:38:20.932313" lifespan="2ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0800"/>
+      <field id="7" value="0513143820"/>
+      <field id="11" value="005224"/>
+      <field id="12" value="143820"/>
+      <field id="13" value="0513"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-13T14:38:21.194598" lifespan="30303ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0810"/>
+      <field id="7" value="0513143820"/>
+      <field id="11" value="005224"/>
+      <field id="12" value="143820"/>
+      <field id="13" value="0513"/>
+      <field id="39" value="00"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-13T14:38:21.201428">
+  <info>
+    mux.isConnected {}
+    true
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-13T14:38:21.201858">
+  <info>
+    Echo message sent: 
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-13T14:38:51.244012">
+  <info>
+    mux.isConnected {}
+    true
+  </info>
+</log>
+<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-13T14:38:51.262075" lifespan="4ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0800"/>
+      <field id="7" value="0513143851"/>
+      <field id="11" value="005225"/>
+      <field id="12" value="143851"/>
+      <field id="13" value="0513"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-13T14:38:51.634416" lifespan="30434ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0810"/>
+      <field id="7" value="0513143851"/>
+      <field id="11" value="005225"/>
+      <field id="12" value="143851"/>
+      <field id="13" value="0513"/>
+      <field id="39" value="00"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-13T14:38:51.636833">
+  <info>
+    mux.isConnected {}
+    true
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-13T14:38:51.637554">
+  <info>
+    Echo message sent: 
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-13T14:39:21.677235">
+  <info>
+    mux.isConnected {}
+    true
+  </info>
+</log>
+<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-13T14:39:21.680310">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0800"/>
+      <field id="7" value="0513143921"/>
+      <field id="11" value="005226"/>
+      <field id="12" value="143921"/>
+      <field id="13" value="0513"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-13T14:39:22.026112" lifespan="30389ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0810"/>
+      <field id="7" value="0513143921"/>
+      <field id="11" value="005226"/>
+      <field id="12" value="143921"/>
+      <field id="13" value="0513"/>
+      <field id="39" value="00"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-13T14:39:22.027396">
+  <info>
+    mux.isConnected {}
+    true
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-13T14:39:22.028219">
+  <info>
+    Echo message sent: 
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-13T14:39:52.037386">
+  <info>
+    mux.isConnected {}
+    true
+  </info>
+</log>
+<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-13T14:39:52.041854" lifespan="2ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0800"/>
+      <field id="7" value="0513143952"/>
+      <field id="11" value="005227"/>
+      <field id="12" value="143952"/>
+      <field id="13" value="0513"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-13T14:39:52.308604" lifespan="30281ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0810"/>
+      <field id="7" value="0513143952"/>
+      <field id="11" value="005227"/>
+      <field id="12" value="143952"/>
+      <field id="13" value="0513"/>
+      <field id="39" value="00"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-13T14:39:52.310150">
+  <info>
+    mux.isConnected {}
+    true
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-13T14:39:52.311445">
+  <info>
+    Echo message sent: 
+  </info>
+</log>

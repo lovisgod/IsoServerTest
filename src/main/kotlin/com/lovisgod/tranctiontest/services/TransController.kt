@@ -318,7 +318,7 @@ class TransController(var qmux: MUX) {
                 )
             } else {
                 ResponseObject(
-                    statusCode = 401,
+                    statusCode = 200,
                     message = "Transaction  successful",
                     data = response.getValue(39).toString()
                 )
