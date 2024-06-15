@@ -285,7 +285,7 @@ class TransController(var qmux: MUX) {
             request.set("127.002", "0200:415495:1207193655:787755594")
             request.set("127.013", "      000000 566 ")
             request.set("127.020", "20230209")
-            request.set("127.020", "20230209")
+//            request.set("127.020", "20230209")
             request.set("127.022", Utils.getRIDAsXML("627480"))
             request.set("127.025", Utils.getIccStructureData(transactionInfo.TRANSACTION_AMOUNT))
             request.set("127.033", "6008")
