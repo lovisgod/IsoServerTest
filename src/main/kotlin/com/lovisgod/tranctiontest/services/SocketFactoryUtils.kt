@@ -20,7 +20,7 @@ class SocketFactoryUtils : ISOClientSocketFactory {
                 })
 
                 init(null, trustCertificates, SecureRandom())
-            }.socketFactory.createSocket(ApplicationUtils.ISW_IP, ApplicationUtils.ISW_PORT)
+            }.socketFactory.createSocket(ApplicationUtils.NIBSS_IP, ApplicationUtils.NIBSS_PORT)
         }
 
     }

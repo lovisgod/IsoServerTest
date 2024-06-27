@@ -33,7 +33,7 @@ object ApplicationUtils {
 
     val ISW_IP = "172.26.42.206"
     val ISW_PORT = 15155
-    val NIBSS_IP = "196.6.103.10"
+    val NIBSS_IP = "196.6.103.126"
     val NIBSS_PORT = 55533
     const val ISW_TERMINAL_IP_NUS = "196.6.103.18"
     const val ISW_TERMINAL_PORT_NUS = 4008

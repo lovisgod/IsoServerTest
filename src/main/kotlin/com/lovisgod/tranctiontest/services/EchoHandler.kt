@@ -20,7 +20,7 @@ class myQbean(val qmux: MUX) : QBeanSupport() {
 //        this.interval = interval
 //    }
 
-    @Scheduled(fixedRate = 30000 )
+//    @Scheduled(fixedRate = 30000 )
      fun runTask() {
            while (true) {
                try {

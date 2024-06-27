@@ -4,15 +4,17 @@
     <channel class="org.jpos.iso.channel.PostChannel"
              packager="org.jpos.iso.packager.GenericPackager"
              realm="postbridge-channel" logger="Q2">
-<!--        <property name="socketFactory" value="com.lovisgod.tranctiontest.services.SocketFactoryUtils"/>-->
+        <property name="socketFactory" value="com.lovisgod.tranctiontest.services.SocketFactoryUtils"/>
         <property name="packager-config"
-                  value="cfg/packager/postpack.xml"/>
-        <property name="host"  value="172.26.42.206"/>
-        <property name="port" value="15155"/>
+                  value="cfg/packager/nibss.xml"/>
+<!--        <property name="host"  value="172.26.42.206"/>-->
+<!--        <property name="port" value="15155"/>-->
+        <property name="host"  value="196.6.103.126"/>
+        <property name="port" value="55533"/>
 <!--        <property name="host" value="isobridge.jpos.org"/>-->
 <!--        <property name="port" value="9000" />-->
         <property name="timeout" value="300000"/>
-        <property name="keep-alive" value="true"/>
+        <property name="keep-alive" value="false"/>
     </channel>
     <in>postbridge-send</in>
     <out>postbridge-receive</out>

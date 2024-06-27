@@ -56,12 +56,12 @@ class TransController(var qmux: MUX) {
 //            isoMsg.packager = packager
 //            request.packager = MyPostPackager()
             request.mti = "0800"
-//            isoMsg[3] = "9A0000"
+            request[3] = "9A0000"
             request[7] = timeAndDateFormatter.format(now)
             request[11] = stan
             request[12] = timeFormatter.format(now)
             request[13] = monthFormatter.format(now)
-            request[70] = "001"
+            request[41] = "2050AB03"
 
             printISOMessage(request)
 
@@ -301,6 +301,17 @@ class TransController(var qmux: MUX) {
                 // remove unset fields
                 request.unset( 52)
             }
+//            val bytes = request.bytes
+//            println(IsoUtils.bytesToHex(bytes))
+//            val length = bytes.size
+//            val temp = ByteArray(length - 64)
+//            if (length >= 64) {
+//                System.arraycopy(bytes, 0, temp, 0, length - 64)
+//            }
+//
+//            val sessionKey = "E9C1CB9DF18A98D03E1FA1AB29D36D20"
+//            val hashValue = IsoUtils.getMac(sessionKey, temp) //SHA256
+//            request.set(128, hashValue)
             printISOMessage(request)
 
             log.info("mux.isConnected {}", qmux.isConnected)

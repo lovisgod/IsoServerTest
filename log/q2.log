@@ -1,1853 +1,734 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <logger class="org.jpos.util.DailyLogListener">
-<log realm="rotate-log-listener" at="2024-05-14T11:13:33.270964">
+<log realm="rotate-log-listener" at="2024-06-27T00:48:18.687368">
    maxage feature is disabled.
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T11:13:41.647535" lifespan="75014ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T11:14:17.748250">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T11:14:47.839594" lifespan="2ms">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T11:15:06.676503" lifespan="75014ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T11:16:31.708138" lifespan="75019ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T11:17:56.722593" lifespan="75006ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T11:19:21.753132" lifespan="75021ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T11:19:47.856465">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T11:20:17.933686">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T11:20:46.781928" lifespan="75014ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T11:22:11.819707" lifespan="75022ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T11:23:36.842557" lifespan="75007ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T11:25:01.872806" lifespan="75019ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T11:25:17.947166">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T11:25:48.032488">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T11:26:26.885637" lifespan="75008ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T11:27:51.915044" lifespan="75016ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T11:29:16.930425" lifespan="75007ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T11:30:41.961295" lifespan="75015ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T11:30:48.042638">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T11:31:18.086373">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T11:32:07.002443" lifespan="75028ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T11:33:32.032492" lifespan="75015ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T11:34:57.075309" lifespan="75030ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T11:36:18.105320" lifespan="11ms">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T11:36:22.097447" lifespan="75011ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T11:36:48.147695">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T11:37:47.122940" lifespan="75011ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T11:39:12.146405" lifespan="75013ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T11:40:37.204141" lifespan="75039ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T11:41:48.181584" lifespan="2ms">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T11:42:02.252677" lifespan="75035ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T11:42:18.291685">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T11:43:27.279297" lifespan="75017ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T11:44:52.319351" lifespan="75025ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T11:46:17.358922" lifespan="75014ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T11:47:18.347157" lifespan="1ms">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T11:47:42.379221" lifespan="75012ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T11:47:48.440626">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T11:49:07.408388" lifespan="75009ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T11:50:32.435275" lifespan="75014ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T11:51:57.451811" lifespan="75006ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T11:52:48.459936" lifespan="1ms">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T11:53:18.517029">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T11:53:22.494380" lifespan="75017ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T11:54:47.525227" lifespan="75021ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T11:56:12.543211" lifespan="75007ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T11:57:37.585063" lifespan="75025ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T11:58:18.536260" lifespan="1ms">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T11:58:48.640945" lifespan="6ms">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T11:59:02.620836" lifespan="75032ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:00:27.680667" lifespan="75046ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:01:52.719955" lifespan="75031ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:03:17.766472" lifespan="75035ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T12:03:48.672160">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T12:04:18.750637">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:04:42.799780" lifespan="75023ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:06:07.829494" lifespan="75008ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:07:33.031075" lifespan="75179ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:08:58.106084" lifespan="75030ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T12:09:18.766293">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T12:09:48.855979">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:10:23.148823" lifespan="75028ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:11:48.214544" lifespan="75054ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:13:13.249564" lifespan="75018ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:14:38.319535" lifespan="75060ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T12:14:48.892164">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T12:15:19.037764">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:16:03.370487" lifespan="75043ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:17:28.407455" lifespan="75020ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:18:53.443899" lifespan="75022ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:20:18.466870" lifespan="75010ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T12:20:19.058281">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T12:20:49.212810">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:21:43.481638" lifespan="75007ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:23:08.511784" lifespan="75018ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:24:33.569894" lifespan="75034ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T12:25:49.231405">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:25:58.627911" lifespan="75022ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T12:26:19.332917">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:27:23.656857" lifespan="75014ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:28:48.674336" lifespan="75006ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:30:13.707915" lifespan="75021ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T12:31:19.345450">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:31:38.744336" lifespan="75020ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T12:31:49.419627">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:33:03.796802" lifespan="75030ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:34:28.862655" lifespan="75045ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:35:53.929644" lifespan="75053ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T12:36:49.434390">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:37:18.962266" lifespan="75013ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T12:37:19.548830">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:38:44.017720" lifespan="75042ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:40:09.049628" lifespan="75006ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:41:34.072748" lifespan="75010ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T12:42:19.564891">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T12:42:49.676511">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:42:59.123269" lifespan="75021ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:44:24.156850" lifespan="75020ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:45:49.233947" lifespan="75066ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:47:14.316051" lifespan="75049ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T12:47:49.695953">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T12:48:19.805911">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:48:39.363967" lifespan="75031ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:50:04.381017" lifespan="75008ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:51:29.412225" lifespan="75018ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:52:54.455600" lifespan="75026ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T12:53:19.820668">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T12:53:49.910449" lifespan="1ms">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:54:19.493768" lifespan="75029ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:55:44.540743" lifespan="75038ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:57:09.619196" lifespan="75049ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:58:34.651259" lifespan="75018ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T12:58:49.944120">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T12:59:20.063125">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T12:59:59.695827" lifespan="75028ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:01:24.744682" lifespan="75024ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:02:49.788136" lifespan="75024ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:04:14.821065" lifespan="75016ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T13:04:20.080771">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T13:04:50.171384">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:05:39.873016" lifespan="75026ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:07:04.951494" lifespan="75054ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:08:29.979811" lifespan="75012ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T13:09:50.186490">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:09:55.006377" lifespan="75015ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T13:10:20.251398">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:11:20.048601" lifespan="75018ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:12:45.065464" lifespan="75007ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:14:10.086616" lifespan="75008ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T13:15:20.260707">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:15:35.106412" lifespan="75004ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T13:15:50.317046">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:17:00.137513" lifespan="75024ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:18:25.188838" lifespan="75042ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:19:50.240274" lifespan="75039ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T13:20:50.327784">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:21:15.294675" lifespan="75042ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T13:21:20.426375">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:22:40.338583" lifespan="75029ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T00:49:37.008111" lifespan="2143102ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:24:05.371577" lifespan="75021ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T00:49:37.015808">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:25:30.397111" lifespan="75017ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T00:49:47.117942" lifespan="28ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T13:26:20.434469">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T00:54:47.128883" lifespan="300008ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T13:26:50.522919">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T00:54:47.143988">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:26:55.419950" lifespan="75011ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T00:54:57.252424" lifespan="19ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:28:20.456306" lifespan="75027ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T00:59:57.316993" lifespan="300062ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:29:45.479742" lifespan="75014ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T00:59:57.319402">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:31:10.511568" lifespan="75023ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T01:00:07.407174" lifespan="27ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T13:31:50.546884">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T01:07:06.479595" lifespan="419066ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T13:32:20.665589">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T01:07:06.488722">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:32:35.559586" lifespan="75034ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T01:07:16.598642" lifespan="14ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:34:00.590042" lifespan="75016ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T01:53:05.471829" lifespan="2748869ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:35:25.620371" lifespan="75019ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T01:53:05.477358">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:36:50.647587" lifespan="75012ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T01:53:15.566180" lifespan="16ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T13:37:20.680383">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T02:23:13.873707" lifespan="1798303ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T13:37:50.754855">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T02:23:13.877509">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:38:15.672215" lifespan="75010ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T02:23:23.978271" lifespan="30ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:39:40.697254" lifespan="75011ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T02:48:22.251676" lifespan="1498268ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:41:05.741850" lifespan="75032ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T02:48:22.261501">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:42:30.769859" lifespan="75018ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T02:48:53.453802" lifespan="203ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T13:42:50.787568">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T03:02:34.487728" lifespan="821030ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T13:43:20.852688">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T03:02:34.493585">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:43:55.803368" lifespan="75021ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T03:02:44.590306" lifespan="20ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:45:20.852692" lifespan="75028ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T03:37:58.793807" lifespan="2114199ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:46:45.906663" lifespan="75037ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T03:37:58.824897">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:48:10.936916" lifespan="75015ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T03:38:08.917022" lifespan="13ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T13:48:20.886094">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T13:48:51.010085">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T03:58:34.984499" lifespan="1226060ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:49:35.966416" lifespan="75010ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T03:58:34.988829">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:51:00.985859" lifespan="75008ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T03:58:45.086331" lifespan="16ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:52:26.025853" lifespan="75018ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T04:13:29.334575" lifespan="884246ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T13:53:51.052683">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T04:13:29.339791">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:53:51.056585" lifespan="75005ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T04:13:39.440576" lifespan="14ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T13:54:21.200720">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T04:18:39.455844" lifespan="300008ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:55:16.072856" lifespan="75011ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T04:18:39.487794">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:56:41.117977" lifespan="75029ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T04:18:49.578363" lifespan="27ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:58:06.144169" lifespan="75015ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T04:39:41.841570" lifespan="1252260ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T13:59:21.219466" lifespan="1ms">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T04:39:41.844856">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T13:59:31.168541" lifespan="75012ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T04:39:52.004191" lifespan="77ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T13:59:51.336584">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T04:49:17.162004" lifespan="565150ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:00:56.212170" lifespan="75024ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T04:49:17.175386">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:02:21.265513" lifespan="75034ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T04:49:27.281059" lifespan="11ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:03:46.307443" lifespan="75027ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T05:05:57.714800" lifespan="990429ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T14:04:51.361574">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T05:05:57.720901">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:05:11.352982" lifespan="75035ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T05:06:07.822668" lifespan="14ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T14:05:21.472294">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T05:38:32.783837" lifespan="1944954ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:06:36.419365" lifespan="75057ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T05:38:32.807003">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:08:01.453724" lifespan="75027ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T05:38:42.927316" lifespan="12ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:09:26.484114" lifespan="75013ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T05:53:23.990293" lifespan="881057ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T14:10:21.484785">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T05:53:23.996234">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:10:51.514466" lifespan="75010ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T05:53:34.087823" lifespan="24ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T14:10:51.537767">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:12:16.541528" lifespan="75012ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T06:03:33.416080" lifespan="599316ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:13:41.566770" lifespan="75011ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T06:03:33.438648">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:15:06.603244" lifespan="75014ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T06:03:43.546707" lifespan="34ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T14:15:51.551940">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T06:08:43.573839" lifespan="300016ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T14:16:21.633850">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T06:08:43.585702">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:16:31.628553" lifespan="75007ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T06:08:53.691734" lifespan="15ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:17:56.659719" lifespan="75012ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T06:13:53.711246" lifespan="300017ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:19:21.701349" lifespan="75025ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T06:13:53.725335">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:20:46.729769" lifespan="75012ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T06:14:03.835769" lifespan="18ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T14:21:21.663853">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T06:19:03.876858" lifespan="300011ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T14:21:51.746571">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T06:19:03.924426">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:22:11.752412" lifespan="75010ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T06:19:14.033636" lifespan="30ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:23:36.788895" lifespan="75010ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T06:24:14.047221" lifespan="300010ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:25:01.831639" lifespan="75027ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T06:24:14.054332">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:26:26.868469" lifespan="75021ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T06:24:24.166118" lifespan="23ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T14:26:51.765992">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T06:29:24.225778" lifespan="300014ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T14:27:21.848158">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T06:29:24.240738">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:27:51.902804" lifespan="75018ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T06:29:34.346209" lifespan="31ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:29:16.927002" lifespan="75007ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T06:34:34.358163" lifespan="300007ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:30:41.950925" lifespan="75016ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T06:34:34.363928">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:32:06.976949" lifespan="75013ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T06:34:44.473155" lifespan="24ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T14:32:21.854797">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T06:39:44.483529" lifespan="300008ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T14:32:51.914568">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T06:39:44.505063">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:33:32.019049" lifespan="75033ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T06:39:54.592896" lifespan="10ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:34:57.047152" lifespan="75018ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T07:02:32.273013" lifespan="1357670ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:36:22.071645" lifespan="75012ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T07:02:32.291737">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:37:47.120207" lifespan="75030ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T07:02:42.400912" lifespan="21ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T14:37:51.928735">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T14:38:22.005876">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T07:36:02.118429" lifespan="1999713ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:39:12.140895" lifespan="75012ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T07:36:02.132323" lifespan="4ms">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:40:37.172406" lifespan="75019ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T07:36:12.218215" lifespan="24ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
 </log>
-<log realm="Q2.system" at="2024-05-14T14:41:25.980712" lifespan="272ms">
-  <version>
-    jPOS 2.1.8 master/6c7e86f (2023-02-21 19:13:26 UYT) 
-
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA1
-
-jPOS Community Edition, licensed under GNU AGPL v3.0.
-This software is probably not suitable for commercial use.
-Please see http://jpos.org/license for details.
-
------BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.9 (Darwin)
-
-iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
-HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
-ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
-St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
-1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
-q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
-=oP+v
------END PGP SIGNATURE-----
-
-  </version>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:42:02.199311" lifespan="75018ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T07:41:12.311517" lifespan="300088ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T14:43:22.017981">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T07:41:12.375527">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:43:27.215655" lifespan="75007ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T07:41:12.485781" lifespan="104ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T14:43:52.089218">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T07:46:13.430775" lifespan="300029ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:44:52.248291" lifespan="75027ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T07:46:13.445604">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:46:17.276868" lifespan="75012ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T07:46:23.530076" lifespan="37ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:47:42.292346" lifespan="75006ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T07:51:23.549750" lifespan="300019ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T14:48:52.102391">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T07:51:23.555797">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:49:07.316842" lifespan="75008ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T07:51:33.628649" lifespan="29ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T14:49:22.167070">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:50:32.341299" lifespan="75015ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T08:07:32.850134" lifespan="959206ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:51:57.365758" lifespan="75009ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T08:07:32.854925">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:53:22.431225" lifespan="75051ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T08:19:26.832149" lifespan="703885ms">
   <connect>
-    Try 0 172.26.42.206:15155
+    Try 0 196.6.103.126:55533
       Operation timed out
     Unable to connect
   </connect>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T14:54:22.176649">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:54:47.466473" lifespan="75020ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T08:35:54.588883" lifespan="19ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
+    Try 0 196.6.103.126:55533
+      Network is unreachable
     Unable to connect
   </connect>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T14:54:52.239390">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:56:12.481586" lifespan="75010ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T09:26:14.898478" lifespan="3ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
+    Try 0 196.6.103.126:55533
+      Network is unreachable
     Unable to connect
   </connect>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T14:57:37.663552" lifespan="75042ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T09:56:31.396774" lifespan="4ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
+    Try 0 196.6.103.126:55533
+      Network is unreachable
     Unable to connect
   </connect>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T15:14:15.414127" lifespan="987740ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T10:25:28.694148" lifespan="9ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
+    Try 0 196.6.103.126:55533
+      Network is unreachable
     Unable to connect
   </connect>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T15:24:31.190329">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T15:28:41.359947" lifespan="855931ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T10:38:35.500407" lifespan="11ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
+    Try 0 196.6.103.126:55533
+      Network is unreachable
     Unable to connect
   </connect>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T15:28:43.977241">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T15:56:19.807447" lifespan="1551232ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T10:38:46.311676" lifespan="791ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T16:16:19.974714" lifespan="938171ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T10:43:46.453051" lifespan="300027ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T16:41:59.071180" lifespan="1053143ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T10:43:46.460952">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T16:58:12.059943" lifespan="960415ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T10:43:56.570402" lifespan="67ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T16:58:29.078397">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T10:48:56.600331" lifespan="300019ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T16:59:13.584710">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T10:48:56.619830">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T17:00:35.605270" lifespan="126981ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T10:49:06.721422" lifespan="39ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T17:18:12.673416" lifespan="1046359ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T10:54:06.743453" lifespan="300011ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T17:31:18.112626" lifespan="775425ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T10:54:06.753620">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T17:44:34.407208" lifespan="786288ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T10:54:16.929184" lifespan="119ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T17:59:21.920462">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T11:13:58.594157" lifespan="1181607ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T18:05:17.495703">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T11:13:58.648803">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T18:07:25.309162" lifespan="1095528ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T11:14:08.725891" lifespan="38ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T18:12:32.842451" lifespan="181667ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T11:19:08.750935" lifespan="300015ms">
+  <receive>
+    <io-timeout/>
+  </receive>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T18:13:57.857947" lifespan="75005ms">
-  <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
-  </connect>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T11:19:08.757667">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
 </log>
-<log realm="postbridge-channel/172.26.42.206:15155" at="2024-05-14T18:15:22.866855" lifespan="75002ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T11:19:18.861250" lifespan="59ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T18:15:53.338822">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-14T18:16:23.393972">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
 </log>
-<log realm="Q2.system" at="2024-05-14T18:16:28.732087">
+<log realm="Q2.system" at="2024-06-27T11:25:38.715039">
   <info>
     shutting down (hook)
   </info>
 </log>
-<log realm="Q2.system" at="2024-05-14T18:16:28.943382">
+<log realm="Q2.system" at="2024-06-27T11:25:39.355477">
   <trace>
     undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
   </trace>
 </log>
-<log realm="Q2.system" at="2024-05-14T18:16:29.071084">
+<log realm="com.lovisgod.tranctiontest-9009.pool" at="2024-06-27T11:25:39.374504">
+  <queue-closed/>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:25:39.380170">
   <info>
     undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
   </info>
 </log>
-<log realm="Q2.system" at="2024-05-14T18:16:29.073910">
+<log realm="Q2.system" at="2024-06-27T11:25:39.381377">
   <trace>
     undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
   </trace>
 </log>
-<log realm="com.lovisgod.tranctiontest-9009.pool" at="2024-05-14T18:16:29.128744">
-  <queue-closed/>
-</log>
-<log realm="org.jpos.transaction.TransactionManager" at="2024-05-14T18:16:29.161248" lifespan="14ms">
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:25:39.384800">
   <info>
-    stop Thread[txnmgr-0:idle,5,main], active sessions=0
+    stop Thread[txnmgr-0:idle,5,main], active sessions=3
   </info>
 </log>
-<log realm="org.jpos.transaction.TransactionManager" at="2024-05-14T18:16:29.163150" lifespan="27ms">
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:25:39.385405">
   <info>
-    stop Thread[txnmgr-1:idle,5,main], active sessions=1
+    stop Thread[txnmgr-3:idle,5,main], active sessions=0
   </info>
 </log>
-<log realm="org.jpos.transaction.TransactionManager" at="2024-05-14T18:16:29.164706" lifespan="29ms">
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:25:39.385002">
   <info>
-    stop Thread[txnmgr-2:idle,5,main], active sessions=3
+    stop Thread[txnmgr-2:idle,5,main], active sessions=1
   </info>
 </log>
-<log realm="org.jpos.transaction.TransactionManager" at="2024-05-14T18:16:29.166262" lifespan="31ms">
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:25:39.384850">
   <info>
-    stop Thread[txnmgr-3:idle,5,main], active sessions=2
+    stop Thread[txnmgr-1:idle,5,main], active sessions=2
   </info>
 </log>
-<log realm="Q2.system" at="2024-05-14T18:16:29.170310">
+<log realm="Q2.system" at="2024-06-27T11:25:39.388006">
   <info>
     undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
   </info>
 </log>
-<log realm="Q2.system" at="2024-05-14T18:16:29.171865">
+<log realm="Q2.system" at="2024-06-27T11:25:39.388495">
   <trace>
     undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
   </trace>
 </log>
-<log realm="Q2.system" at="2024-05-14T18:16:29.175386">
+<log realm="Q2.system" at="2024-06-27T11:25:39.390783">
   <info>
     undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
   </info>
 </log>
-<log realm="Q2.system" at="2024-05-14T18:16:29.176627">
+<log realm="Q2.system" at="2024-06-27T11:25:39.391245">
   <trace>
     undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
   </trace>
 </log>
-<log realm="Q2.system" at="2024-05-14T18:16:29.185524">
+<log realm="Q2.system" at="2024-06-27T11:25:39.392359">
   <info>
     undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
   </info>
 </log>
-<log realm="Q2.system" at="2024-05-14T18:16:29.186987">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T11:25:39.392783" lifespan="380529ms">
+  <receive/>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:25:39.393109">
   <trace>
     undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/00_logger.xml
   </trace>
@@ -1855,12 +736,12 @@ q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
 </logger>
 <?xml version="1.0" encoding="UTF-8"?>
 <logger class="org.jpos.util.DailyLogListener">
-<log realm="Q2.system" at="2024-05-30T09:46:38.682585">
+<log realm="Q2.system" at="2024-06-27T11:25:53.588047">
   <info>
     Q2 started, deployDir=/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy, environment=default
   </info>
 </log>
-<log realm="Q2.system" at="2024-05-30T09:46:39.199780" lifespan="511ms">
+<log realm="Q2.system" at="2024-06-27T11:25:54.586812" lifespan="985ms">
   <version>
     jPOS 2.1.8 master/6c7e86f (2023-02-21 19:13:26 UYT) 
 
@@ -1885,140 +766,830 @@ q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
 
   </version>
 </log>
-<log realm="Q2.system" at="2024-05-30T09:46:39.225440" lifespan="14ms">
+<log realm="Q2.system" at="2024-06-27T11:25:54.607971" lifespan="12ms">
   <info>
     deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
   </info>
 </log>
-<log realm="Q2.system" at="2024-05-30T09:46:39.247664" lifespan="21ms">
+<log realm="Q2.system" at="2024-06-27T11:25:54.629372" lifespan="21ms">
   <info>
     deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
   </info>
 </log>
-<log realm="Q2.system" at="2024-05-30T09:46:39.267581" lifespan="18ms">
+<log realm="Q2.system" at="2024-06-27T11:25:54.651505" lifespan="21ms">
   <info>
     deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
   </info>
 </log>
-<log realm="Q2.system" at="2024-05-30T09:46:39.278651" lifespan="10ms">
+<log realm="Q2.system" at="2024-06-27T11:25:54.662682" lifespan="10ms">
   <info>
     deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
   </info>
 </log>
-<log realm="org.jpos.transaction.TransactionManager" at="2024-05-30T09:46:39.360674">
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:25:54.731331">
   <info>
     start Thread[Thread-6,5,main]
   </info>
 </log>
-<log realm="org.jpos.transaction.TransactionManager" at="2024-05-30T09:46:39.361181">
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:25:54.737765" lifespan="3ms">
   <info>
     start Thread[Thread-7,5,main]
   </info>
 </log>
-<log realm="org.jpos.transaction.TransactionManager" at="2024-05-30T09:46:39.361509">
-  <info>
-    start Thread[Thread-8,5,main]
-  </info>
-</log>
-<log realm="org.jpos.transaction.TransactionManager" at="2024-05-30T09:46:39.361604">
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:25:54.739592">
   <info>
     start Thread[Thread-9,5,main]
   </info>
 </log>
-<log realm="com.lovisgod.tranctiontest-9009.server" at="2024-05-30T09:46:39.401236">
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:25:54.740180">
+  <info>
+    start Thread[Thread-8,5,main]
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.server" at="2024-06-27T11:25:54.822904">
   <iso-server>
     listening on port 9009
   </iso-server>
 </log>
-<log realm="com.lovisgod.tranctiontest.services.myQbean" at="2024-05-30T09:47:10.227560">
-  <info>
-    mux.isConnected {}
-    false
-  </info>
-</log>
-<log realm="postbridge-channel" at="2024-05-30T09:47:54.470357" lifespan="75111ms">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T11:25:54.895420" lifespan="167ms">
   <connect>
-    Try 0 172.26.42.206:15155
-      Operation timed out
-    Unable to connect
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
   </connect>
 </log>
-<log realm="Q2.system" at="2024-05-30T09:48:15.965894">
+<log realm="Q2.system" at="2024-06-27T11:26:42.050094">
   <info>
     shutting down (hook)
   </info>
 </log>
-<log realm="Q2.system" at="2024-05-30T09:48:16.032298">
+<log realm="Q2.system" at="2024-06-27T11:26:42.193325">
   <info>
     shutting down
   </info>
 </log>
-<log realm="Q2.system" at="2024-05-30T09:48:16.033083">
+<log realm="Q2.system" at="2024-06-27T11:26:42.194962">
   <trace>
     undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
   </trace>
 </log>
-<log realm="com.lovisgod.tranctiontest-9009.pool" at="2024-05-30T09:48:16.036829">
-  <queue-closed/>
-</log>
-<log realm="Q2.system" at="2024-05-30T09:48:16.037556">
+<log realm="Q2.system" at="2024-06-27T11:26:42.199840">
   <info>
     undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
   </info>
 </log>
-<log realm="Q2.system" at="2024-05-30T09:48:16.037921">
+<log realm="Q2.system" at="2024-06-27T11:26:42.200362">
   <trace>
     undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
   </trace>
 </log>
-<log realm="org.jpos.transaction.TransactionManager" at="2024-05-30T09:48:16.040023">
-  <info>
-    stop Thread[txnmgr-2:idle,5,main], active sessions=3
-  </info>
+<log realm="com.lovisgod.tranctiontest-9009.pool" at="2024-06-27T11:26:42.201113">
+  <queue-closed/>
 </log>
-<log realm="org.jpos.transaction.TransactionManager" at="2024-05-30T09:48:16.041042">
-  <info>
-    stop Thread[txnmgr-3:idle,5,main], active sessions=0
-  </info>
-</log>
-<log realm="org.jpos.transaction.TransactionManager" at="2024-05-30T09:48:16.041185" lifespan="1ms">
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:26:42.202198">
   <info>
     stop Thread[txnmgr-0:idle,5,main], active sessions=1
   </info>
 </log>
-<log realm="org.jpos.transaction.TransactionManager" at="2024-05-30T09:48:16.041895" lifespan="1ms">
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:26:42.202269">
+  <info>
+    stop Thread[txnmgr-3:idle,5,main], active sessions=0
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:26:42.202383">
   <info>
     stop Thread[txnmgr-1:idle,5,main], active sessions=2
   </info>
 </log>
-<log realm="Q2.system" at="2024-05-30T09:48:16.043177">
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:26:42.202468">
+  <info>
+    stop Thread[txnmgr-2:idle,5,main], active sessions=3
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:26:42.203345">
   <info>
     undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
   </info>
 </log>
-<log realm="Q2.system" at="2024-05-30T09:48:16.043344">
+<log realm="Q2.system" at="2024-06-27T11:26:42.203735">
   <trace>
     undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
   </trace>
 </log>
-<log realm="Q2.system" at="2024-05-30T09:48:16.043794">
+<log realm="Q2.system" at="2024-06-27T11:26:42.205679">
   <info>
     undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
   </info>
 </log>
-<log realm="Q2.system" at="2024-05-30T09:48:16.043912">
+<log realm="Q2.system" at="2024-06-27T11:26:42.208353">
   <trace>
     undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
   </trace>
 </log>
-<log realm="Q2.system" at="2024-05-30T09:48:16.044155">
+<log realm="Q2.system" at="2024-06-27T11:26:42.210062">
   <info>
     undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
   </info>
 </log>
-<log realm="Q2.system" at="2024-05-30T09:48:16.044284">
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T11:26:42.210530" lifespan="47311ms">
+  <receive/>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:26:42.210636">
   <trace>
     undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/00_logger.xml
   </trace>
 </log>
 </logger>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2024-06-27T11:26:51.539308">
+  <info>
+    Q2 started, deployDir=/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy, environment=default
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:26:52.007616" lifespan="463ms">
+  <version>
+    jPOS 2.1.8 master/6c7e86f (2023-02-21 19:13:26 UYT) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:26:52.027729" lifespan="11ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:26:52.054288" lifespan="22ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:26:52.073603" lifespan="18ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:26:52.081166" lifespan="7ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:26:52.131852">
+  <info>
+    start Thread[Thread-6,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:26:52.133152" lifespan="1ms">
+  <info>
+    start Thread[Thread-7,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:26:52.133397">
+  <info>
+    start Thread[Thread-9,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:26:52.133454">
+  <info>
+    start Thread[Thread-8,5,main]
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.server" at="2024-06-27T11:26:52.162515">
+  <iso-server>
+    listening on port 9009
+  </iso-server>
+</log>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T11:26:52.184482" lifespan="54ms">
+  <connect>
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
+  </connect>
+</log>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T11:27:12.437989" lifespan="3ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/nibss.xml] -->
+      <field id="0" value="0800"/>
+      <field id="3" value="9A0000"/>
+      <field id="7" value="0627112712"/>
+      <field id="11" value="005414"/>
+      <field id="12" value="112712"/>
+      <field id="13" value="0627"/>
+      <field id="41" value="2050AB03"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T11:27:12.517519" lifespan="20332ms">
+  <receive>
+    <peer-disconnect/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T11:27:12.518261">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T11:27:22.630359" lifespan="67ms">
+  <connect>
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
+  </connect>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:30:50.572931" lifespan="19ms">
+  <info>
+    modified deploy/10_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:30:50.634797">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </trace>
+</log>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T11:30:50.657411" lifespan="208021ms">
+  <receive/>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:30:50.658900">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:30:53.317511" lifespan="100ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T11:30:54.025121" lifespan="584ms">
+  <connect>
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
+  </connect>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:31:48.729834">
+  <info>
+    shutting down (hook)
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:31:51.120766">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </trace>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.pool" at="2024-06-27T11:31:51.125508">
+  <queue-closed/>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:31:51.126115">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:31:51.126325">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </trace>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:31:51.129303">
+  <info>
+    stop Thread[txnmgr-2:idle,5,main], active sessions=3
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:31:51.129593">
+  <info>
+    stop Thread[txnmgr-3:idle,5,main], active sessions=2
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:31:51.130788">
+  <info>
+    stop Thread[txnmgr-1:idle,5,main], active sessions=1
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:31:51.132732">
+  <info>
+    stop Thread[txnmgr-0:idle,5,main], active sessions=0
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:31:51.134657">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:31:51.134986">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:31:51.136973">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:31:51.137794">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:31:51.142172">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:31:51.143427">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/00_logger.xml
+  </trace>
+</log>
+</logger>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2024-06-27T11:32:21.692340">
+  <info>
+    Q2 started, deployDir=/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy, environment=default
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:32:22.165937" lifespan="470ms">
+  <version>
+    jPOS 2.1.8 master/6c7e86f (2023-02-21 19:13:26 UYT) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:32:22.183331" lifespan="9ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:32:22.202569" lifespan="18ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:32:22.218472" lifespan="15ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:32:22.230818" lifespan="11ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:32:22.303491">
+  <info>
+    start Thread[Thread-6,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:32:22.303790">
+  <info>
+    start Thread[Thread-8,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:32:22.304029">
+  <info>
+    start Thread[Thread-9,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:32:22.304114">
+  <info>
+    start Thread[Thread-7,5,main]
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.server" at="2024-06-27T11:32:22.350740">
+  <iso-server>
+    listening on port 9009
+  </iso-server>
+</log>
+<log realm="postbridge-channel" at="2024-06-27T11:33:37.420722" lifespan="75119ms">
+  <connect>
+    Try 0 196.6.103.126:55533
+      Operation timed out
+    Unable to connect
+  </connect>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:34:01.150968">
+  <info>
+    shutting down (hook)
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:34:02.707806">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </trace>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.pool" at="2024-06-27T11:34:02.723141">
+  <queue-closed/>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:34:02.723682">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:34:02.724149">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </trace>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:34:02.725830">
+  <info>
+    stop Thread[txnmgr-0:idle,5,main], active sessions=3
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:34:02.727707" lifespan="1ms">
+  <info>
+    stop Thread[txnmgr-1:idle,5,main], active sessions=0
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:34:02.727862" lifespan="1ms">
+  <info>
+    stop Thread[txnmgr-2:idle,5,main], active sessions=1
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:34:02.728029" lifespan="2ms">
+  <info>
+    stop Thread[txnmgr-3:idle,5,main], active sessions=2
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:34:02.730702">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:34:02.736945">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:34:02.740471">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:34:02.740850">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:34:02.742347">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:34:02.742755">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/00_logger.xml
+  </trace>
+</log>
+</logger>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2024-06-27T11:34:25.816550">
+  <info>
+    Q2 started, deployDir=/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy, environment=default
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:34:26.357513" lifespan="537ms">
+  <version>
+    jPOS 2.1.8 master/6c7e86f (2023-02-21 19:13:26 UYT) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:34:26.383297" lifespan="12ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:34:26.405057" lifespan="20ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:34:26.423122" lifespan="17ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:34:26.437059" lifespan="13ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:34:26.518762">
+  <info>
+    start Thread[Thread-6,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:34:26.521080" lifespan="1ms">
+  <info>
+    start Thread[Thread-9,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:34:26.521369" lifespan="1ms">
+  <info>
+    start Thread[Thread-8,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:34:26.523187" lifespan="3ms">
+  <info>
+    start Thread[Thread-7,5,main]
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.server" at="2024-06-27T11:34:26.575970">
+  <iso-server>
+    listening on port 9009
+  </iso-server>
+</log>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T11:34:26.866526" lifespan="351ms">
+  <connect>
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
+  </connect>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:37:40.970929">
+  <info>
+    shutting down (hook)
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:37:42.491761">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:37:42.498850">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.pool" at="2024-06-27T11:37:42.499386">
+  <queue-closed/>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:37:42.499600">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </trace>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:37:42.501358">
+  <info>
+    stop Thread[txnmgr-0:idle,5,main], active sessions=3
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:37:42.503298" lifespan="1ms">
+  <info>
+    stop Thread[txnmgr-1:idle,5,main], active sessions=2
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:37:42.503214" lifespan="1ms">
+  <info>
+    stop Thread[txnmgr-2:idle,5,main], active sessions=1
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:37:42.503139">
+  <info>
+    stop Thread[txnmgr-3:idle,5,main], active sessions=0
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:37:42.504406">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:37:42.505340">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:37:42.506646">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:37:42.508424">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </trace>
+</log>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T11:37:42.516231" lifespan="190198ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/postpack.xml] -->
+      <field id="0" value="0800"/>
+      <field id="3" value="9A0000"/>
+      <field id="7" value="0627113432"/>
+      <field id="11" value="005416"/>
+      <field id="12" value="113432"/>
+      <field id="13" value="0627"/>
+      <field id="41" value="2050AB03"/>
+    </isomsg>
+    <exception name="Connection or outbound has closed">
+    java.net.SocketException: Connection or outbound has closed
+	at java.base/sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1301)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at java.base/java.io.DataOutputStream.flush(DataOutputStream.java:128)
+	at org.jpos.iso.BaseChannel.send(BaseChannel.java:604)
+	at org.jpos.q2.iso.ChannelAdaptor$Sender.run(ChannelAdaptor.java:299)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+    </exception>
+  </send>
+</log>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T11:37:42.520046" lifespan="195652ms">
+  <receive/>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:37:42.519503" lifespan="2ms">
+  <info>
+    undeployed:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T11:37:42.524005">
+  <warn>
+    channel-sender-postbridge-send
+    Connection or outbound has closed
+  </warn>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:37:42.524208">
+  <trace>
+    undeploying:/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/00_logger.xml
+  </trace>
+</log>
+</logger>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2024-06-27T11:37:59.133094">
+  <info>
+    Q2 started, deployDir=/Users/ayooluwa.olosunde/Documents/tranctiontest/deploy, environment=default
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:38:00.122784" lifespan="919ms">
+  <version>
+    jPOS 2.1.8 master/6c7e86f (2023-02-21 19:13:26 UYT) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:38:00.181283" lifespan="50ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/10_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:38:00.207307" lifespan="25ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/20_qmux.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:38:00.230740" lifespan="22ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/30_transaction_manager.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2024-06-27T11:38:00.266341" lifespan="35ms">
+  <info>
+    deploy: /Users/ayooluwa.olosunde/Documents/tranctiontest/deploy/50_server_simulator.xml
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:38:00.327158">
+  <info>
+    start Thread[Thread-6,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:38:00.328253">
+  <info>
+    start Thread[Thread-7,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:38:00.328728">
+  <info>
+    start Thread[Thread-9,5,main]
+  </info>
+</log>
+<log realm="org.jpos.transaction.TransactionManager" at="2024-06-27T11:38:00.328844">
+  <info>
+    start Thread[Thread-8,5,main]
+  </info>
+</log>
+<log realm="com.lovisgod.tranctiontest-9009.server" at="2024-06-27T11:38:00.405984">
+  <iso-server>
+    listening on port 9009
+  </iso-server>
+</log>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T11:38:00.610829" lifespan="286ms">
+  <connect>
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
+  </connect>
+</log>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T11:38:06.545600" lifespan="10ms">
+  <send>
+    <isomsg direction="outgoing">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/nibss.xml] -->
+      <field id="0" value="0800"/>
+      <field id="3" value="9A0000"/>
+      <field id="7" value="0627113806"/>
+      <field id="11" value="005417"/>
+      <field id="12" value="113806"/>
+      <field id="13" value="0627"/>
+      <field id="41" value="2050AB03"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T11:38:06.841958" lifespan="6228ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.GenericPackager[cfg/packager/nibss.xml] -->
+      <field id="0" value="0810"/>
+      <field id="7" value="0627113806"/>
+      <field id="11" value="005417"/>
+      <field id="12" value="113806"/>
+      <field id="13" value="0627"/>
+      <field id="39" value="00"/>
+      <field id="41" value="2050AB03"/>
+      <field id="53" value="19FC07FB5EBF0237CC9FCADF218657A3C71E710000000000000000000000000000000000000000000000000000000000" type="binary"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T11:38:06.883578" lifespan="27ms">
+  <receive>
+    <peer-disconnect/>
+  </receive>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2024-06-27T11:38:06.888453">
+  <warn>
+    channel-receiver-postbridge-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="postbridge-channel/196.6.103.126:55533" at="2024-06-27T11:38:17.170589" lifespan="231ms">
+  <connect>
+    Try 0 196.6.103.126:55533
+      Connection established to 196.6.103.126:55533
+  </connect>
+</log>
