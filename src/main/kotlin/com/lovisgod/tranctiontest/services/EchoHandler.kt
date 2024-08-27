@@ -16,11 +16,11 @@ import java.util.*
 @Component
 class myQbean(val qmux: MUX) : QBeanSupport() {
     private var interval: Long = 30000 // Interval between echo messages in milliseconds
-//    fun setInterval(interval: Long) {
-//        this.interval = interval
-//    }
+    fun setInterval(interval: Long) {
+        this.interval = interval
+    }
 
-//    @Scheduled(fixedRate = 30000 )
+    @Scheduled(fixedRate = 30000 )
      fun runTask() {
            while (true) {
                try {
