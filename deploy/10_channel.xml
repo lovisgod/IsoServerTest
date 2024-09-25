@@ -8,7 +8,7 @@
         <property name="packager-config"
                   value="cfg/packager/postpack.xml"/>
 <!--        <property name="host"  value="172.26.42.206"/>-->
-        <property name="host"  value="172.26.42.230"/>
+        <property name="host"  value="172.25.20.235"/>
         <property name="port" value="15155"/>
 <!--        <property name="host"  value="196.6.103.126"/>-->
 <!--        <property name="port" value="55533"/>-->
